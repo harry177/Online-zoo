@@ -1,0 +1,10 @@
+.header {
+    background-color: black;
+}
+
+.image__header {
+    width: 1600px;
+    height: 780px;
+    padding-top: 92px;
+    background-image: url("./../../assets/images/Giant\ Panda.jpg");
+}
