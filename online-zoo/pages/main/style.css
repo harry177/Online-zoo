@@ -1,10 +1,219 @@
-.header {
+@font-face {
+    font-family: 'Roboto';
+    src: url('./../../assets/fonts/Roboto/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./../../assets/fonts/Roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./../../assets/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+.black__header {
+    width: 1600px;
+    height: 80px;
     background-color: black;
 }
 
 .image__header {
     width: 1600px;
-    height: 780px;
-    padding-top: 92px;
-    background-image: url("./../../assets/images/Giant\ Panda.jpg");
+    height: 700px;
+    background: url("./../../assets/images/Giant\ Panda.jpg") no-repeat;
+}
+
+.ellips {
+    width: 465px;
+    height: 465px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 90%;
+    position: absolute;
+    left: 807px;
+    top: 92px;
+}
+
+.image__motto {
+    width: 500.31px;
+    height: 400px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.496px;
+    position: absolute;
+    left: 880px;
+    top: 166px;
+    text-align: center;
+    color: white;
+    line-height: 84px;
+    z-index: 5;
+}
+
+.favorite {
+    color: #FFEE2E;
+}
+
+.orange__button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    width: 298px;
+    height: 54px;
+    color: white;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border: none;
+}
+
+.button1 {
+    left: 983px;
+    top: 626px;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.button2 {
+    left: 651px;
+    top: 2455px;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.button3 {
+    left: 431px;
+    bottom: 59px;
+    border-radius: 25px;
+    position: absolute;
+}
+
+.button4 {
+    bottom: 0px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.button5 {
+    top: 161px;
+    left: 220px;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.section1 {
+    width: 1600px;
+    height: 1829px;
+}
+
+.section1__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1161px;
+    height: 1455px;
+    position: relative;
+    top: 140px;
+    left: 220px;
+    border: black solid 1px;
+}
+
+.backstage {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    height: 403px;
+    border: black solid 1px;
+}
+
+.backstage__image {
+    width: 609px;
+    height: 403px;
+    background: url('./../../assets/images/bamboo-cap.jpg') no-repeat;
+}
+
+.backstage__block {
+    width: 465px;
+    height: 403px;
+}
+
+.animals {
+    width: inherit;
+    height: 872px;
+    border: black solid 1px;
+}
+
+.section2 {
+    width: 1600px;
+    height: 1004px;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+}
+
+.pink__and__feed {
+    width: 1160px;
+    height: 835px;
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    position: relative;
+    top: 69px;
+    left: 220px;
+}
+
+.pink__and__feed__inner {
+    width: inherit;
+    height: 621px;
+    position: relative;
+    top: 41px;
+    border: black solid 1px;
+}
+
+.paf__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    width: 463px;
+    height: 58px;
+    color: #FE9013;
+    top: 0px;
+    left: 350px;
+    position: relative;
+    margin: 0px;
+}
+
+.paf__title2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333B41;
+    top: 30px;
+    left: 99px;
+    position: relative;
+    margin: 0px;
+}
+
+.section3 {
+    width: 1600px;
+    height: 919px;
+}
+
+.testimonials {
+    width: 1160px;
+    height: 599px;
+    position: relative;
+    top: 140px;
+    left: 220px;
+    border: black solid 1px;
+}
+
+footer {
+    width: 1600px;
+    height: 443px;
+    background-color: black;
 }
