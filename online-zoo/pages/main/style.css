@@ -59,19 +59,27 @@ body {
 }
 
 .logo {
+    width: 82px;
+    height: 52px;
+    border: white solid 1px;
+    border-radius: 2px;
+    text-align: center;
+    background: url('./../../assets/icons/bamboo.svg') no-repeat;
+    background-position: 11px 21.64px;
+}
+
+.petstory {
     font-family: 'Roboto-Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 19.01px;
     line-height: 24.5px;
-    width: 82px;
-    height: 52px;
     color: white;
-    border: white solid 1px;
-    border-radius: 2px;
-    text-align: center;
-    background: url('./../../assets/icons/bamboo.svg') no-repeat;
-    background-position: 11px 23.64px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .nav {
@@ -97,30 +105,59 @@ body {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: pointer;
 }
 
 .nb2 {
     width: 32px;
     margin: 0px;
     color: white;
+    cursor: pointer;
+}
+
+.nb2:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nb3 {
     width: 36px;
     margin: 0px;
     color: white;
+    cursor: pointer;
+}
+
+.nb3:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nb4 {
     width: 51px;
     margin: 0px;
     color: white;
+    cursor: pointer;
+}
+
+.nb4:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nb5 {
     width: 78px;
     margin: 0px;
     color: white;
+    cursor: pointer;
+}
+
+.nb5:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .designed {
@@ -182,6 +219,15 @@ body {
     color: white;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border: none;
+    cursor: pointer;
+}
+
+.orange__button:hover {
+    background: #E47209;
+}
+
+.orange__button:focus {
+    background: #4B9200;
 }
 
 .button1 {
@@ -228,6 +274,7 @@ body {
     position: absolute;
     border-radius: 90%;
     border: none;
+    cursor: pointer;
 }
 
 .rb__left {
@@ -236,10 +283,18 @@ body {
     background: orange url('./../../assets/icons/small-arrow-left.svg') no-repeat center;
 }
 
+.rb__left:focus {
+    background: #4B9200 url('./../../assets/icons/small-arrow-left.svg') no-repeat center;
+}
+
 .rb__right {
     top: 1906px;
     left: 1419px;
     background: orange url('./../../assets/icons/small-arrow-right.svg') no-repeat center;
+}
+
+.rb__right:focus {
+    background: #4B9200 url('./../../assets/icons/small-arrow-right.svg') no-repeat center;
 }
 
 .flower__one__box {
@@ -398,10 +453,24 @@ body {
             mask-composite: exclude;
   }
 
+.animals__block__picture {
+    display: flex;
+    width: 366px;
+    height: 366px;
+}
+
+.animals__block__picture:hover {
+    transform: scale(1.05);
+  }
+
 .animals__block__pandas {
     width: 366px;
     height: 366px;
     background: url('./../../assets/images/animals-block-pandas.jpg') no-repeat;
+}
+
+.animals__block__pandas:hover {
+    transform: scale(2);
 }
 
 .animals__block__eagles {
@@ -822,6 +891,7 @@ body {
     width: 115.19px;
     height: inherit;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .slider__bar__part:hover {
@@ -870,6 +940,22 @@ footer {
     position: absolute;
 }
 
+.logo__footer {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.01px;
+    line-height: 24.5px;
+    color: white;
+    width: 82px;
+    height: 52px;
+    border: white solid 1px;
+    border-radius: 2px;
+    text-align: center;
+    background: url('./../../assets/icons/bamboo.svg') no-repeat;
+    background-position: 11px 21.64px;
+}
+
 .social {
     display: flex;
     flex-direction: column;
@@ -886,6 +972,7 @@ footer {
     width: inherit;
     height: 26px;
     border: white solid 1px;
+    cursor: pointer;
 }
 
 .social__ellips {
