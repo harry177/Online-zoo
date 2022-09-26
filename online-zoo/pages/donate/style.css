@@ -246,6 +246,50 @@ a {
     border: black solid 1px;
 }
 
+.section2__text__title {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46.8px;
+    color: white;
+    width: 1156px;
+    height: 47px;
+    margin: 0px;
+    position: relative;
+    border: black solid 1px;
+}
+
+.section2__text__text {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: white;
+    width: inherit;
+    height: 94px;
+    top: 10px;
+    margin: 0px;
+    position: relative;
+    border: black solid 1px;
+}
+
+.section2__donation__title {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46.8px;
+    color: #FE9013;
+    width: 341px;
+    height: 47px;
+    top: 44px;
+    margin: 0px;
+    position: relative;
+    border: black solid 1px;
+}
+
 .pick__and__feed {
     width: inherit;
     height: 964px;
@@ -266,6 +310,12 @@ a {
 }
 
 .paf__inner__text__title {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: #FE9013;
     width: 463px;
     height: 58px;
     left: 250px;
@@ -275,6 +325,12 @@ a {
 }
 
 .paf__inner__text__text {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #333B41;
     width: inherit;
     height: 29px;
     top: 20px;
@@ -292,6 +348,65 @@ a {
     border: black solid 1px;
 }
 
+.panda__diet__block {
+    width: 159px;
+    height: 91px;
+    top: 77.5px;
+    left: 38px;
+    position: relative;
+    border: black solid 1px;
+}
+
+.panda__diet__block__digit {
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 57.6px;
+    color: black;
+    text-align: center;
+    width: 82px;
+    height: 58px;
+    left: 38.8px;
+    position: relative;
+    border: black solid 1px;
+}
+
+.panda__diet__block__text {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #333B41;
+    width: inherit;
+    height: 22px;
+    top: 69px;
+    margin: 0px;
+    position: absolute;
+    border: black solid 1px;
+}
+
+.calculation__sign {
+    width: 14px;
+    height: 14px;
+    top: 116px;
+    right: 302px;
+    background: url('./../../assets/icons/x_icon.svg') no-repeat;
+    position: absolute;
+    border: black solid 1px;
+}
+
+.panda__icon__block {
+    width: 284px;
+    height: 246px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    background: url('./../../assets/icons/panda_vector_big.svg') no-repeat;
+    border: black solid 1px;
+}
+
 .paf__diagram {
     width: inherit;
     height: 114px;
@@ -299,6 +414,60 @@ a {
     position: absolute;
     border: black solid 1px;
     margin: 0px;
+}
+
+.amount {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: black;
+    width: 57px;
+    height: 22px;
+    margin: 0px;
+    border: black solid 1px;
+}
+
+.diagram__line {
+    display: flex;
+    align-items: center;
+    width: 976px;
+    height: 40px;
+    top: 32px;
+    position: absolute;
+    border: black solid 1px;
+}
+
+.diagram__black__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 27px;
+    background: #404950;
+}
+
+.diagram__black__line {
+    width: 915px;
+    height: 2px;
+    background: #72828E;
+}
+
+.diagram__prices {
+    width: 976px;
+    height: 36px;
+    top: 78px;
+    position: absolute;
+    border: black solid 1px;
+}
+
+.price {
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36.4px;
 }
 
 .fields__container {
@@ -312,13 +481,33 @@ a {
 }
 
 .paf__amount {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
     width: 268px;
     height: 54px;
     left: 13px;
     position: relative;
+    background: inherit;
+    text-indent: 10px;
+    color: #929699;
+    border-color: #929699;
+}
+
+.paf__amount::placeholder {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #929699;
 }
 
 .paf__radio {
+    display: flex;
+    justify-content: space-between;
     width: 218px;
     height: 21px;
     top: 25px;
@@ -328,7 +517,32 @@ a {
     margin: 0px;
 }
 
+.paf__radio__period {
+    width: 84px;
+    height: 21px;
+    border: black solid 1px;
+}
+
+.radio__text {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #333B41;
+}
+
+.radio__hole {
+    border-color: #FE9013;
+}
+
 .paf__postcriptum {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #333B41;
     width: 301px;
     height: 22px;
     bottom: 0px;
