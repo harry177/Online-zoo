@@ -32,6 +32,14 @@ body {
     margin: 0px;
 }
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -46,7 +54,6 @@ body {
     align-items: center;
     width: 1160px;
     height: inherit;
-    border: white solid 1px;
 }
 
 .logo__nav__block {
@@ -55,7 +62,6 @@ body {
     align-items: center;
     width: 617px;
     height: inherit;
-    border: white solid 1px;
 }
 
 .logo {
@@ -169,7 +175,6 @@ a {
     color: white;
     width: 105px;
     height: 22px;
-    border: white solid 1px;
 }
 
 .section1 {
@@ -237,13 +242,11 @@ a {
 .section2__container {
     width: 1160px;
     height: inherit;
-    border: black solid 1px;
 }
 
 .section2__text__block {
     width: inherit;
     height: 238px;
-    border: black solid 1px;
 }
 
 .section2__text__title {
@@ -257,7 +260,6 @@ a {
     height: 47px;
     margin: 0px;
     position: relative;
-    border: black solid 1px;
 }
 
 .section2__text__text {
@@ -272,7 +274,6 @@ a {
     top: 10px;
     margin: 0px;
     position: relative;
-    border: black solid 1px;
 }
 
 .section2__donation__title {
@@ -287,7 +288,6 @@ a {
     top: 44px;
     margin: 0px;
     position: relative;
-    border: black solid 1px;
 }
 
 .pick__and__feed {
@@ -303,7 +303,6 @@ a {
 .paf__inner__block {
     width: 976px;
     height: 862px;
-    border: black solid 1px;
     position: relative;
     top: 40px;
     left: 92px;
@@ -320,7 +319,6 @@ a {
     height: 58px;
     left: 250px;
     margin: 0px;
-    border: black solid 1px;
     position: relative;
 }
 
@@ -336,7 +334,6 @@ a {
     top: 20px;
     margin: 0px;
     position: relative;
-    border: black solid 1px;
 }
 
 .paf__pandas__block {
@@ -345,16 +342,14 @@ a {
     top: 60px;
     left: 215px;
     position: relative;
-    border: black solid 1px;
 }
 
 .panda__diet__block {
     width: 159px;
     height: 91px;
     top: 77.5px;
-    left: 38px;
+    left: 0px;
     position: relative;
-    border: black solid 1px;
 }
 
 .panda__diet__block__digit {
@@ -369,7 +364,6 @@ a {
     height: 58px;
     left: 38.8px;
     position: relative;
-    border: black solid 1px;
 }
 
 .panda__diet__block__text {
@@ -384,17 +378,15 @@ a {
     top: 69px;
     margin: 0px;
     position: absolute;
-    border: black solid 1px;
 }
 
 .calculation__sign {
     width: 14px;
     height: 14px;
     top: 116px;
-    right: 302px;
+    right: 345px;
     background: url('./../../assets/icons/x_icon.svg') no-repeat;
     position: absolute;
-    border: black solid 1px;
 }
 
 .panda__icon__block {
@@ -404,7 +396,6 @@ a {
     right: 0px;
     position: absolute;
     background: url('./../../assets/icons/panda_vector_big.svg') no-repeat;
-    border: black solid 1px;
 }
 
 .paf__diagram {
@@ -412,7 +403,6 @@ a {
     height: 114px;
     top: 461px;
     position: absolute;
-    border: black solid 1px;
     margin: 0px;
 }
 
@@ -426,7 +416,6 @@ a {
     width: 57px;
     height: 22px;
     margin: 0px;
-    border: black solid 1px;
 }
 
 .diagram__line {
@@ -435,8 +424,7 @@ a {
     width: 976px;
     height: 40px;
     top: 32px;
-    position: absolute;
-    border: black solid 1px;
+    position: relative;
 }
 
 .diagram__black__block {
@@ -459,7 +447,15 @@ a {
     height: 36px;
     top: 78px;
     position: absolute;
-    border: black solid 1px;
+}
+
+.prices__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 126px;
+    z-index: 5;
+    position: absolute;
 }
 
 .price {
@@ -468,13 +464,57 @@ a {
     font-weight: 500;
     font-size: 26px;
     line-height: 36.4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    width: 70px;
+    margin-top: 2px;
+    z-index: 100;
+}
+
+.price::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 6px;
+    top: -20.5px;
+    background: url('./../../assets/icons/yellow-radio.svg') no-repeat center;
+    z-index: 50;
+    cursor: pointer;
+}
+
+.donation {
+    font-family: 'Roboto-Medium';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36.4px;
+    color: #333B41;
+    margin: 36px 0px 50px;
+    text-transform: uppercase;
+    transition: ease-in-out 0.2s;
+}
+
+.donation input:checked + label {
+    color: #FE9013;
+}
+
+.price input:checked + label:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url('./../../assets/icons/roller_icon.svg') no-repeat center;
+    left: 16px;
+    top: -10.5px;
+    z-index: 50;
 }
 
 .fields__container {
     width: 301px;
     height: 237.02px;
     position: relative;
-    border: black solid 1px;
     margin: 0px;
     top: 285px;
     left: 340px;
@@ -491,6 +531,9 @@ a {
     left: 13px;
     position: relative;
     background: inherit;
+    background-image: url('./../../assets/icons/dollar-vector.svg');
+    background-repeat: no-repeat;
+    background-position: 96% center;
     text-indent: 10px;
     color: #929699;
     border-color: #929699;
@@ -513,14 +556,12 @@ a {
     top: 25px;
     left: 41.5px;
     position: relative;
-    border: black solid 1px;
     margin: 0px;
 }
 
 .paf__radio__period {
     width: 84px;
     height: 21px;
-    border: black solid 1px;
 }
 
 .radio__text {
@@ -548,7 +589,6 @@ a {
     bottom: 0px;
     position: absolute;
     margin: 0px;
-    border: black solid 1px;
 }
 
 footer {
@@ -564,12 +604,10 @@ footer {
 .footer__container {
     width: 1160px;
     height: 353px;
-    border: white solid 1px;
 }
 
 .footer__inner__block {
     height: inherit;
-    border: white solid 1px;
 }
 
 .fib1 {
@@ -618,13 +656,11 @@ footer {
     top: 107px;
     bottom: 0px;
     position: relative;
-    border: white solid 1px;
 }
 
 .social__block {
     width: inherit;
     height: 26px;
-    border: white solid 1px;
     cursor: pointer;
 }
 
@@ -665,7 +701,6 @@ footer {
     justify-content: space-between;
     width: 362px;
     height: 22px;
-    border: white solid 1px;
 }
 
 .subscribe {
@@ -674,7 +709,6 @@ footer {
     justify-content: space-between;
     width: 367px;
     height: 85px;
-    border: white solid 1px;
 }
 
 .subscribe__title {
@@ -694,7 +728,6 @@ footer {
 .submit__block {
     width: inherit;
     height: 42px;
-    border: white solid 1px;
 }
 
 .email__input {
@@ -741,7 +774,6 @@ footer {
     bottom: 0px;
     right: 0px;
     position: absolute;
-    border: white solid 1px;
 }
 
 .copyright__first {
