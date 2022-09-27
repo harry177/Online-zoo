@@ -29,7 +29,15 @@
 }
 
 body {
-    margin: 0px;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .header {
@@ -46,7 +54,6 @@ body {
     align-items: center;
     width: 1160px;
     height: inherit;
-    border: white solid 1px;
 }
 
 .logo__nav__block {
@@ -55,7 +62,6 @@ body {
     align-items: center;
     width: 617px;
     height: inherit;
-    border: white solid 1px;
 }
 
 .logo {
@@ -169,7 +175,6 @@ a {
     color: white;
     width: 105px;
     height: 22px;
-    border: white solid 1px;
 }
 
 .section1 {
@@ -289,7 +294,7 @@ a {
 
 .rb__right {
     top: 1906px;
-    left: 1419px;
+    left: 1400px;
     background: orange url('./../../assets/icons/small-arrow-right.svg') no-repeat center;
 }
 
@@ -342,7 +347,6 @@ a {
     position: relative;
     top: 140px;
     left: 220px;
-    border: black solid 1px;
     margin: 0px;
 }
 
@@ -351,7 +355,6 @@ a {
     justify-content: space-between;
     width: inherit;
     height: 403px;
-    border: black solid 1px;
 }
 
 .backstage__image {
@@ -363,7 +366,6 @@ a {
 .backstage__block {
     width: 465px;
     height: inherit;
-    border: black solid 1px;
 }
 
 .backstage__block__title {
@@ -428,15 +430,16 @@ a {
     row-gap: 20px;
     width: inherit;
     height: 872px;
-    border: black solid 1px;
+
 }
 
 .animals__block {
     width: 366px;
     height: 426px;
-    border: 1px solid;
     position: relative;
     border-radius: 5px;
+    margin: 0px;
+    overflow: hidden;
 }
 
 .animals__block::before {
@@ -444,6 +447,7 @@ a {
     position: absolute;
     inset: 0;
     padding: 2px;
+    z-index: 100;
     border-radius: 5px;
     background: linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%);
     -webkit-mask:
@@ -454,53 +458,57 @@ a {
   }
 
 .animals__block__picture {
-    display: flex;
     width: 366px;
     height: 366px;
 }
 
-.animals__block__picture:hover {
+.animals__block:hover .animals__block__picture {
     transform: scale(1.05);
-  }
-
-.animals__block__pandas {
-    width: 366px;
-    height: 366px;
-    background: url('./../../assets/images/animals-block-pandas.jpg') no-repeat;
+    transition: 0.5s ease-in-out;
 }
 
-.animals__block__pandas:hover {
-    transform: scale(2);
+.slider__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: white;
+    position: absolute;
+    bottom: -50px;
+    transition: 0.5s ease-in-out;
+    z-index: 0;
 }
 
-.animals__block__eagles {
-    width: 366px;
-    height: 366px;
-    background: url('./../../assets/images/animals-block-eagles.jpg') no-repeat;
+.animals__block:hover .slider__text {
+    bottom: 60px;
+    
 }
 
-.animals__block__gorillas {
-    width: 366px;
-    height: 366px;
-    background: url('./../../assets/images/animals-block-gorillas.jpg') no-repeat;
+.slider__text__name {
+    font-family: 'Roboto-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: black;
+    width: inherit;
+    height: 22px;
+    position: relative;
+    margin: 0px;
 }
 
-.animals__block__sloths {
-    width: 366px;
-    height: 366px;
-    background: url('./../../assets/images/animals-block-sloths.jpg') no-repeat;
-}
-
-.animals__block__cheetahs {
-    width: 366px;
-    height: 366px;
-    background: url('./../../assets/images/animals-block-cheetahs.jpg') no-repeat;
-}
-
-.animals__block__penguins {
-    width: 366px;
-    height: 366px;
-    background: url('./../../assets/images/animals-block-penguins.jpg') no-repeat;
+.slider__text__place {
+    font-family: 'Roboto-Light';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: black;
+    width: inherit;
+    height: 18px;
+    position: relative;
+    margin: 0px;
 }
 
 .animals__block__info {
@@ -508,12 +516,15 @@ a {
     justify-content: space-between;
     width: inherit;
     height: 60px;
+    z-index: 10;
+    margin-top: -5px;
+    position: relative;
+    background: white;
 }
 
 .animals__block__info__text {
     width: 300px;
     height: inherit;
-    border: black solid 1px;
 }
 
 .animals__block__info__text__name {
@@ -549,7 +560,7 @@ a {
 .animals__block__info__image {
     width: 48px;
     height: inherit;
-    border: black solid 1px;
+
 }
 
 .animals__fruit {
@@ -588,7 +599,6 @@ a {
     height: 621px;
     position: relative;
     top: 41px;
-    border: black solid 1px;
 }
 
 .paf__title {
@@ -657,7 +667,6 @@ a {
     left: 198px;
     bottom: 0px;
     margin: 0px;
-    border: black solid 1px;
     position: absolute;
 }
 
@@ -677,7 +686,6 @@ a {
     display: flex;
     width: 764px;
     height: 244px;
-    border: black solid 1px;
 }
 
 .paf__image__block {
@@ -748,7 +756,6 @@ a {
     position: relative;
     top: 140px;
     left: 220px;
-    border: black solid 1px;
 }
 
 .testimonials__title {
@@ -805,37 +812,35 @@ a {
 .opinion__header {
     display: flex;
     width: 237px;
-    height: 37px;
-    border: black solid 1px;
+    height: 40px;
 }
 
 .opinion__header__icon {
-    width: 37px;
-    height: 37px;
+    width: 41px;
+    height: 40px;
+    margin-right: 5px;
     border-radius: 90%;
-    border: black solid 1px;
 }
 
 .user__icon1 {
-    background: url('./../../assets/icons/icon-undefined.svg') no-repeat;
+    background: url('./../../assets/icons/icon-undefined.svg') no-repeat center;
 }
 
 .user__icon2 {
-    background: url('./../../assets/images/icon-oskar.jpg') no-repeat;
+    background: url('./../../assets/images/icon-oskar.jpg') no-repeat center;
 }
 
 .user__icon3 {
-    background: url('./../../assets/images/icon-fredericka.jpg') no-repeat;
+    background: url('./../../assets/images/icon-fredericka.jpg') no-repeat center;
 }
 
 .user__icon4 {
-    background: url('./../../assets/images/icon-mila.jpg') no-repeat;
+    background: url('./../../assets/images/icon-mila.jpg') no-repeat center;
 }
 
 .opinion__header__text {
-    width: 200px;
+    width: 196px;
     height: 37px;
-    border: black solid 1px;
 }
 
 .opinion__header__text__name {
@@ -873,7 +878,6 @@ a {
     height: 309px;
     margin: 0px;
     overflow: hidden;
-    border: black solid 1px;
 }
 
 .testimonials__slider__bar {
@@ -892,9 +896,17 @@ a {
     height: inherit;
     border-radius: 5px;
     cursor: pointer;
+    background: #FE9013;
 }
 
-.slider__bar__part:hover {
+.slider__bar__part__many {
+    width: 115.19px;
+    height: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.slider__bar__part__many:hover {
     background: #FE9013;
 }
 
@@ -911,12 +923,10 @@ footer {
 .footer__container {
     width: 1160px;
     height: 353px;
-    border: white solid 1px;
 }
 
 .footer__inner__block {
     height: inherit;
-    border: white solid 1px;
 }
 
 .fib1 {
@@ -965,13 +975,11 @@ footer {
     top: 107px;
     bottom: 0px;
     position: relative;
-    border: white solid 1px;
 }
 
 .social__block {
     width: inherit;
     height: 26px;
-    border: white solid 1px;
     cursor: pointer;
 }
 
@@ -1012,7 +1020,6 @@ footer {
     justify-content: space-between;
     width: 362px;
     height: 22px;
-    border: white solid 1px;
 }
 
 .subscribe {
@@ -1021,7 +1028,6 @@ footer {
     justify-content: space-between;
     width: 367px;
     height: 85px;
-    border: white solid 1px;
 }
 
 .subscribe__title {
@@ -1041,7 +1047,6 @@ footer {
 .submit__block {
     width: inherit;
     height: 42px;
-    border: white solid 1px;
 }
 
 .email__input {
@@ -1088,7 +1093,6 @@ footer {
     bottom: 0px;
     right: 0px;
     position: absolute;
-    border: white solid 1px;
 }
 
 .copyright__first {
