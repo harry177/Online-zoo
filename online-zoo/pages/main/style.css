@@ -177,6 +177,12 @@ a {
     height: 22px;
 }
 
+.designed:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .section1 {
     width: 1600px;
     height: 700px;
@@ -657,6 +663,24 @@ a {
     margin: 0px;
 }
 
+.emergency {
+    color: #333B41 !important;
+    text-decoration: none;
+}
+
+.emergency:hover {
+    color: #FE9013 !important;
+}
+
+.emergency__line {
+    width: 178px;
+    height: 1px;
+    background: #FE9013;
+    position: absolute;
+    top: 231px;
+    left: 186px;
+}
+
 .paf__block {
     display: flex;
     flex-direction: column;
@@ -983,12 +1007,19 @@ footer {
     cursor: pointer;
 }
 
+.social__block .social__name:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .social__ellips {
     width: 26px;
     height: 26px;
     border-radius: 50%;
     margin: 0px;
     position: absolute;
+    background: rgba(196, 196, 196, 0.5);
 }
 
 .social__name {
@@ -1000,19 +1031,31 @@ footer {
 }
 
 .fb__logo {
-    background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/fb-logo.svg') no-repeat center;
+    background:  url('./../../assets/icons/fb-logo.svg') no-repeat center;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
 }
 
 .tw__logo {
-    background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/tw-logo.svg') no-repeat center;
+    background: url('./../../assets/icons/tw-logo.svg') no-repeat center;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
 }
 
 .insta__logo {
     background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/insta-logo.svg') no-repeat center;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
 }
 
 .you__logo {
     background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/you-logo.svg') no-repeat center;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
 }
 
 .nav__footer {

@@ -177,6 +177,12 @@ a {
     height: 22px;
 }
 
+.designed:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .section1 {
     width: 1600px;
     height: 390px;
@@ -247,6 +253,8 @@ a {
 .section2__text__block {
     width: inherit;
     height: 238px;
+    top: 40px;
+    position: relative;
 }
 
 .section2__text__title {
@@ -297,7 +305,7 @@ a {
     backdrop-filter: blur(2px);
     border-radius: 20px;
     position: relative;
-    top: 60px;
+    top: 100px;
 }
 
 .paf__inner__block {
@@ -339,7 +347,7 @@ a {
 .paf__pandas__block {
     width: 532px;
     height: 246px;
-    top: 60px;
+    top: 80px;
     left: 215px;
     position: relative;
 }
@@ -347,7 +355,7 @@ a {
 .panda__diet__block {
     width: 159px;
     height: 91px;
-    top: 77.5px;
+    top: 100px;
     left: 0px;
     position: relative;
 }
@@ -383,7 +391,7 @@ a {
 .calculation__sign {
     width: 14px;
     height: 14px;
-    top: 116px;
+    top: 126px;
     right: 345px;
     background: url('./../../assets/icons/x_icon.svg') no-repeat;
     position: absolute;
@@ -423,7 +431,7 @@ a {
     align-items: center;
     width: 976px;
     height: 40px;
-    top: 32px;
+    top: 7px;
     position: relative;
 }
 
@@ -456,6 +464,7 @@ a {
     height: 126px;
     z-index: 5;
     position: absolute;
+    top: 37px;
 }
 
 .price {
@@ -466,7 +475,6 @@ a {
     line-height: 36.4px;
     display: flex;
     flex-direction: column;
-    text-align: center;
     position: relative;
     width: 70px;
     margin-top: 2px;
@@ -491,7 +499,7 @@ a {
     font-size: 26px;
     line-height: 36.4px;
     color: #333B41;
-    margin: 36px 0px 50px;
+    margin: 20px -1px 50px;
     text-transform: uppercase;
     transition: ease-in-out 0.2s;
 }
@@ -547,6 +555,16 @@ a {
     line-height: 22.4px;
     color: #929699;
 }
+
+.paf__amount::-webkit-outer-spin-button,
+.paf__amount::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+.paf__amount[type=number] {
+    -moz-appearance: textfield;
+  } 
 
 .paf__radio {
     display: flex;
@@ -664,12 +682,19 @@ footer {
     cursor: pointer;
 }
 
+.social__block .social__name:hover {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .social__ellips {
     width: 26px;
     height: 26px;
     border-radius: 50%;
     margin: 0px;
     position: absolute;
+    background: rgba(196, 196, 196, 0.5);
 }
 
 .social__name {
@@ -682,18 +707,30 @@ footer {
 
 .fb__logo {
     background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/fb-logo.svg') no-repeat center;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
 }
 
 .tw__logo {
     background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/tw-logo.svg') no-repeat center;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
 }
 
 .insta__logo {
     background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/insta-logo.svg') no-repeat center;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
 }
 
 .you__logo {
     background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/you-logo.svg') no-repeat center;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
 }
 
 .nav__footer {
