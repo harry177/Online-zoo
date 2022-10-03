@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-small.css">
+    <link rel="stylesheet" href="style-tablet.css">
+    <link rel="stylesheet" href="style-mobile.css">
+    <link rel="stylesheet" href="big-small-trans.css">
+    <link rel="stylesheet" href="small-tablet-trans.css">
+    <link rel="stylesheet" href="tablet-mobile-trans.css">
     <title>Document</title>
 </head>
 <body>
@@ -33,16 +39,14 @@
         </div>
     </header>
     <main>
-        <section>
-            <div class="section1">
-                <div class="ellips"></div>
-                <div class="image__motto">WATCH YOUR <span class="favorite">FAVORITE</span> ANIMAL ONLINE</div>
-                <button class="orange__button button1" type="button">WATH ONLINE</button>
-            </div>
+        <section class="section1">
+            <div class="ellips"></div>
+            <div class="image__motto">WATCH YOUR <span class="favorite">FAVORITE</span> ANIMAL ONLINE</div>
+            <button class="orange__button button1" type="button">WATH ONLINE</button>
         </section>
         <section class="section2">
             <button class="round__button rb__left" type="button"></button>
-            <button class="round__button rb__right" type="button"></button>
+            
             <div class="flower__one__box">
                 <img src="./../../assets/images/flower-1.jpg" alt="flower-1" class="flower__one">
             </div>
@@ -65,12 +69,14 @@
                     </div>
                 </div>
                 <div class="animals">
-                    <div class="animals__block">
-                        <img src="./../../assets/images/animals-block-pandas.jpg" alt="pandas" class="animals__block__picture">
+                    <div class="animals__block ">
+                        <img src="./../../assets/images/animals-block-pandas.jpg" alt="pandas" class="animals__block__picture" id="animal__panda">
                         <div class="animals__block__info">
                             <div class="animals__block__info__text">
                                 <p class="animals__block__info__text__name">GIANT PANDAS</p>
+                                <p class="text__name__1000">GIANT PANDAS</p>
                                 <p class="animals__block__info__text__place">Native to Southwest China</p>
+                                <p class="text__place__1000">Native to Southwest China</p>
                             </div>
                             <div class="animals__block__info__image">
                                 <div class="animals__fruit"></div>
@@ -78,15 +84,19 @@
                         </div>
                         <div class="slider__text">
                             <p class="slider__text__name">GIANT PANDAS</p>
+                            <p class="slider__text__name__1000">GIANT PANDAS</p>
                             <p class="slider__text__place">Native to Southwest China</p>
+                            <p class="slider__text__place___1000">Native to Southwest China</p>
                         </div>
                     </div>
                     <div class="animals__block">
-                        <img src="./../../assets/images/animals-block-eagles.jpg" alt="eagles" class="animals__block__picture">
+                        <img src="./../../assets/images/animals-block-eagles.jpg" alt="eagles" class="animals__block__picture" id="animal__eagle">
                         <div class="animals__block__info">
                             <div class="animals__block__info__text">
                                 <p class="animals__block__info__text__name">EAGLES</p>
+                                <p class="text__name__1000">EAGLES</p>
                                 <p class="animals__block__info__text__place">Native to South America</p>
+                                <p class="text__place__1000">Native to South America</p>
                             </div>
                             <div class="animals__block__info__image">
                                 <div class="animals__meat"></div>
@@ -94,31 +104,46 @@
                         </div>
                         <div class="slider__text">
                             <p class="slider__text__name">EAGLES</p>
+                            <p class="slider__text__name__1000">EAGLES</p>
                             <p class="slider__text__place">Native to South America</p>
+                            <p class="slider__text__place___1000">Native to South America</p>
                         </div>
                     </div>
                     <div class="animals__block">
-                        <img src="./../../assets/images/animals-block-gorillas.jpg" alt="gorillas" class="animals__block__picture">
+                        <picture>
+                            <source media="(max-width:1000px)" srcset="./../../assets/images/animals-block-cheetahs.jpg" alt="cheetahs">
+                            <img src="./../../assets/images/animals-block-gorillas.jpg" alt="gorillas" class="animals__block__picture" id="animal__gorilla">
+                        </picture>
                         <div class="animals__block__info">
                             <div class="animals__block__info__text">
                                 <p class="animals__block__info__text__name">GORILLAS</p>
+                                <p class="text__name__1000">CHEETAHS</p>
                                 <p class="animals__block__info__text__place">Native to Congo</p>
+                                <p class="text__place__1000">Native to Africa</p>
                             </div>
                             <div class="animals__block__info__image">
-                                <div class="animals__fruit"></div>
+                                <div class="animals__fruit__1600"></div>
+                                <div class="animals__meat__1000"></div>
                             </div>
                         </div>
                         <div class="slider__text">
                             <p class="slider__text__name">GORILLAS</p>
+                            <p class="slider__text__name__1000">CHEETAHS</p>
                             <p class="slider__text__place">Native to Congo</p>
+                            <p class="slider__text__place___1000">Native to Africa</p>
                         </div>
                     </div>
                     <div class="animals__block">
-                        <img src="./../../assets/images/animals-block-sloths.jpg" alt="sloths" class="animals__block__picture">
+                        <picture>
+                            <source media="(max-width:1000px)" srcset="./../../assets/images/animals-block-gorillas.jpg" alt="gorillas">
+                            <img src="./../../assets/images/animals-block-sloths.jpg" alt="sloths" class="animals__block__picture" id="animal__sloth">
+                        </picture>
                         <div class="animals__block__info">
                             <div class="animals__block__info__text">
                                 <p class="animals__block__info__text__name">TWO-TOED SLOTH</p>
+                                <p class="text__name__1000">GORILLAS</p>
                                 <p class="animals__block__info__text__place">Mesoamerica, South America</p>
+                                <p class="text__place__1000">Native to Congo</p>
                             </div>
                             <div class="animals__block__info__image">
                                 <div class="animals__fruit"></div>
@@ -126,15 +151,22 @@
                         </div>
                         <div class="slider__text">
                             <p class="slider__text__name">TWO-TOED SLOTH</p>
+                            <p class="slider__text__name__1000">GORILLAS</p>
                             <p class="slider__text__place">Mesoamerica, South America</p>
+                            <p class="slider__text__place___1000">Native to Congo</p>
                         </div>
                     </div>
-                    <div class="animals__block">
-                        <img src="./../../assets/images/animals-block-cheetahs.jpg" alt="cheetahs" class="animals__block__picture">
+                    <div class="animals__block ab5">
+                        <picture>
+                            <source media="(max-width:1000px)" srcset="./../../assets/images/animals-block-alligators.jpg" alt="alligators">
+                            <img src="./../../assets/images/animals-block-cheetahs.jpg" alt="cheetahs" class="animals__block__picture" id="animal__cheetah">
+                        </picture>
                         <div class="animals__block__info">
                             <div class="animals__block__info__text">
                                 <p class="animals__block__info__text__name">CHEETAHS</p>
+                                <p class="text__name__1000">ALLIGATORS</p>
                                 <p class="animals__block__info__text__place">Native to Africa</p>
+                                <p class="text__place__1000">Native to Southeastern U. S.</p>
                             </div>
                             <div class="animals__block__info__image">
                                 <div class="animals__meat"></div>
@@ -142,15 +174,19 @@
                         </div>
                         <div class="slider__text">
                             <p class="slider__text__name">CHEETAHS</p>
+                            <p class="slider__text__name__1000">ALLIGATORS</p>
                             <p class="slider__text__place">Native to Africa</p>
+                            <p class="slider__text__place___1000">Native to Southeastern U. S.</p>
                         </div>
                     </div>
-                    <div class="animals__block">
-                        <img src="./../../assets/images/animals-block-penguins.jpg" alt="penguins" class="animals__block__picture">
+                    <div class="animals__block ab6">
+                        <img src="./../../assets/images/animals-block-penguins.jpg" alt="penguins" class="animals__block__picture" id="animal__penguin">
                         <div class="animals__block__info">
                             <div class="animals__block__info__text">
                                 <p class="animals__block__info__text__name">PENGUINS</p>
+                                <p class="text__name__1000">PENGUINS</p>
                                 <p class="animals__block__info__text__place">Native to Antarctica</p>
+                                <p class="text__place__1000">Native to Antarctica</p>
                             </div>
                             <div class="animals__block__info__image">
                                 <div class="animals__meat"></div>
@@ -158,11 +194,14 @@
                         </div>
                         <div class="slider__text">
                             <p class="slider__text__name">PENGUINS</p>
+                            <p class="slider__text__name__1000">PENGUINS</p>
                             <p class="slider__text__place">Native to Antarctica</p>
+                            <p class="slider__text__place___1000">Native to Antarctica</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <button class="round__button rb__right" type="button"></button>
             <button class="orange__button button2" type="button">CHOOSE YOUR FAVORITE</button>
         </section>
         <section class="section3">
@@ -202,9 +241,6 @@
             </div>
         </section>
         <section class="section4">
-            <div class="flower__four__box">
-                <img src="./../../assets/images/flower-4.jpg" alt="flower-4" class="flower__four">
-            </div>
             <div class="testimonials">
                 <h3 class="testimonials__title">Testimonials</h3>
                 <div class="testimonials__block">
@@ -271,7 +307,7 @@
                             Online zoo is one jf the ways to instill a love for animals.
                         </div>
                     </div>
-                    <div class="opinion">
+                    <div class="opinion" id="opinion4">
                         <div class="opinion__header">
                             <div class="opinion__header__icon user__icon4"></div>
                             <div class="opinion__header__text">
@@ -304,76 +340,73 @@
                 </div>
                 <button class="orange__button button4">LEAVE FEEDBACK</button>
             </div>
+            <div class="flower__four__box">
+            <img src="./../../assets/images/flower-4.jpg" alt="flower-4" class="flower__four">
+            </div>
         </section>
     </main>
     <footer>
         <div class="footer__container">
-            <div class="footer__inner__block fib1">
+            <a href="./index.html">
+                <div class="logo__footer">PetStory online</div>
+            </a>
+            <div class="subscribe">
+                <div class="subscribe__title">
+                    <div class="subscribe__title__text">Subscribe to our news</div>
+                </div>
+                <div class="submit__block">
+                    <input class="email__input" type="email" placeholder="Enter your email">
+                    <button class="submit__button" type="button">Submit</button>
+                </div>
+            </div> 
+            <a href="./../donate/index.html" class="button5__link">
+                <button class="orange__button button5">DONATE FOR VOLUNTEERS</button>
+            </a>
+            <div class="social">
+                <a href="https://facebook.com">
+                    <div class="social__block">
+                        <div class="social__ellips">
+                            <div class="fb__logo"></div>
+                        </div>
+                        <div class="social__name">Facebook</div>
+                    </div>
+                </a>
+                <a href="https://twitter.com">
+                    <div class="social__block">
+                        <div class="social__ellips">
+                            <div class="tw__logo"></div>
+                        </div>
+                        <div class="social__name">Twitter</div>
+                    </div>
+                </a>
+                <a href="https://instagram.com">
+                    <div class="social__block">
+                        <div class="social__ellips">
+                            <div class="insta__logo"></div>
+                        </div>
+                        <div class="social__name">Instagram</div>
+                    </div>
+                </a>
+                <a href="https://youtube.com">
+                    <div class="social__block">
+                        <div class="social__ellips">
+                            <div class="you__logo"></div>
+                        </div>
+                        <div class="social__name">YouTube</div>
+                    </div>
+                </a>
+            </div>
+            <div class="nav__footer">
                 <a href="./index.html">
-                    <div class="logo__footer">PetStory online</div>
+                    <p class="nav__block nb1">About</p>
                 </a>
-                <a href="./../donate/index.html">
-                    <button class="orange__button button5">DONATE FOR VOLUNTEERS</button>
-                </a>
-                <div class="social">
-                    <a href="https://facebook.com">
-                        <div class="social__block">
-                            <div class="social__ellips">
-                                <div class="fb__logo"></div>
-                            </div>
-                            <div class="social__name">Facebook</div>
-                        </div>
-                    </a>
-                    <a href="https://twitter.com">
-                        <div class="social__block">
-                            <div class="social__ellips">
-                                <div class="tw__logo"></div>
-                            </div>
-                            <div class="social__name">Twitter</div>
-                        </div>
-                    </a>
-                    <a href="https://instagram.com">
-                        <div class="social__block">
-                            <div class="social__ellips">
-                                <div class="insta__logo"></div>
-                            </div>
-                            <div class="social__name">Instagram</div>
-                        </div>
-                    </a>
-                    <a href="https://youtube.com">
-                        <div class="social__block">
-                            <div class="social__ellips">
-                                <div class="you__logo"></div>
-                            </div>
-                            <div class="social__name">YouTube</div>
-                        </div>
-                    </a>
-                </div>
+                <p class="nav__block nb2">Map</p>
+                <p class="nav__block nb3">Zoos</p>
+                <p class="nav__block nb5">Contact us</p>
             </div>
-            <div class="footer__inner__block fib2">
-                <div class="nav__footer">
-                    <a href="./index.html">
-                        <p class="nav__block nb1">About</p>
-                    </a>
-                    <p class="nav__block nb2">Map</p>
-                    <p class="nav__block nb3">Zoos</p>
-                    <p class="nav__block nb5">Contact us</p>
-                </div>
-            </div>
-            <div class="footer__inner__block fib3">
-                <div class="subscribe">
-                    <div class="subscribe__title">
-                        <div class="subscribe__title__text">Subscribe to our news</div>
-                    </div>
-                    <div class="submit__block">
-                        <input class="email__input" type="email" placeholder="Enter your email">
-                        <button class="submit__button" type="button">Submit</button>
-                    </div>
-                </div>
-                <div class="copyright">
-                    <p class="copyright__first">Designed by Alisa Samborskaya</p>
-                    <p class="copyright__second">©RSSchool & ©Yem Digital 2021</p>
-                </div>
+            <div class="copyright">
+                <p class="copyright__first">Designed by Alisa Samborskaya</p>
+                <p class="copyright__second">©RSSchool & ©Yem Digital 2021</p>
             </div>
         </div>
     </footer>

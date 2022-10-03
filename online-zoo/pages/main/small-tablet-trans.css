@@ -1,0 +1,10 @@
+@media (max-width: 999px) and (min-width: 641px) {
+    .wrapper {
+        width: 100vw;
+    }
+
+    .header {
+        width: 100vw;
+        height: 5vw;
+    }
+}

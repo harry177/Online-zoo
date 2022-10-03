@@ -1,0 +1,671 @@
+@media (max-width: 1599px) and (min-width: 1001px) {
+    .wrapper {
+        width: 100vw;
+    }
+
+    .header {
+        width: 100vw;
+        height: 5vw;
+    }
+
+    .header__container {
+        width: 72.5vw;
+    }
+
+    .logo__nav__block {
+        width: 38.56vw;
+    }
+
+    .logo {
+        width: 5.125vw;
+        height: 3.25vw;
+        border-radius: 0.125vw;
+        background-position: 0.6875vw 1.3525vw;
+        background-size: 0.439vw 1.311vw;
+    }
+
+    .petstory {
+        font-size: 1.188vw;
+        line-height: 1.53vw;
+    }
+
+    .nav {
+        width: 29.5vw;
+        height: 1.375vw;
+    }
+
+    .nav__block {
+        font-size: 1vw;
+        line-height: 1.4vw;
+    }
+
+    .nb1 {
+        width: 2.6875vw;
+    }
+
+    .nb2 {
+        width: 2vw;
+    }
+
+    .nb3 {
+        width: 2.25vw;
+    }
+
+    .nb4 {
+        width: 3.1875vw;
+    }
+
+    .nb5 {
+        width: 4.875vw;
+    }
+
+    .designed {
+        font-size: 1vw;
+        line-height: 1.4vw;
+        width: 6.5625vw;
+        height: 1.375vw;
+    }
+
+    .section1 {
+        width: 100vw;
+        height: 43.75vw;
+        background-size: 100vw;
+    }
+
+    .ellips {
+        width: 29.06vw;
+        height: 29.06vw;
+        left: 50.43vw;
+        top: 5.75vw;
+    }
+    
+    .image__motto {
+        width: 31.27vw;
+        height: 25vw;
+        font-size: 6.65vw;
+        left: 55vw;
+        top: 10.37vw;
+        line-height: 5vw;
+    }
+
+    .orange__button {
+        font-size: 1vw;
+        width: 18.62vw;
+        height: 3.37vw;
+    }
+
+    .button1 {
+        left: 61.43vw;
+        top: 39.125vw;
+        border-radius: 1.56vw;
+    }
+    
+    .button2 {
+        left: 40.625vw;
+        top: 153.75vw;
+        border-radius: 1.56vw;
+    }
+    
+    .button3 {
+        left: 26.93vw;
+        bottom: 3.68vw;
+        border-radius: 1.56vw;
+    }
+    
+    .button4 {
+        border-radius: 0.31vw;
+    }
+    
+    .button5 {
+        top: 4.25vw;
+        border-radius: 0.31vw;
+    }
+    
+    .section2 {
+        width: 100vw;
+        height: 114.312vw;
+    }
+
+    .round__button {
+        width: 3.875vw;
+        height: 3.875vw;
+    }
+
+    .rb__left {
+        top: 15.625vw;
+        left: -1.25vw;
+    }
+    
+    .rb__right {
+        top: 15.625vw;
+        right: -1.25vw;
+    }
+
+    .flower__one__box {
+        width: 18.31vw;
+        height: 37.31vw;
+        top: 49.5vw;
+        left: 81.68vw;
+    }
+    
+    .flower__one {
+        width: 18.31vw;
+        height: 37.31vw;
+        right: -5.81vw;
+    }
+    
+    .flower__two__box {
+        width: 55vw;
+        height: 28.75vw;
+        top: 134.31vw;
+    }
+    
+    .flower__two {
+        width: 55vw;
+        height: 28.75vw;
+        left: -36.75vw;
+    }
+    
+    .flower__three {
+        width: 23vw;
+        height: 17.18vw;
+        top: 145.87vw;
+        left: 77vw;
+    }
+
+    .section2__container {
+        width: 72.562vw;
+        height: 90.937vw;
+        top: -2.812vw;
+    }
+    
+    .backstage {
+        height: 25.18vw;
+    }
+    
+    .backstage__image {
+        width: 38.06vw;
+        height: 25.18vw;
+        background-size: 38.06vw 25.18vw;
+    }
+
+    .backstage__block {
+        width: 29.06vw;
+    }
+    
+    .backstage__block__title {
+        font-size: 3vw;
+        line-height: 3.6vw;
+        height: 7.25vw;
+    }
+    
+    .backstage__block__title__text {
+        font-size: 1vw;
+        height: 2.62vw;
+        line-height: 1.3vw;
+        top: 1.25vw;
+    }
+
+    .howitworks__title {
+        font-size: 1.5vw;
+        height: 1.81vw;
+        top: 3.37vw;
+    }
+    
+    .howitworks__text {
+        font-size: 1vw;
+        height: 6.56vw;
+        line-height: 1.4vw;
+        top: 18.43vw;
+        bottom: 0.187vw;
+    }
+    
+    .animals {
+        grid-template-columns: 22.87vw 22.87vw 22.87vw;
+        grid-template-rows: 26.62vw 26.62vw;
+        column-gap: 1.87vw;
+        row-gap: 1.25vw;
+        height: 54.5vw;
+    }
+    
+    .animals__block {
+        width: 22.87vw;
+        height: 26.62vw;
+        border-radius: 0.312vw;
+    }
+    
+    .animals__block::before {
+        padding: 0.125vw;
+        border-radius: 0.312vw;
+      }
+
+      .animals__block__picture {
+        width: 22.87vw;
+        height: 22.87vw;
+    }
+    
+    .slider__text {
+        height: 3.75vw;
+        bottom: -3.125vw;
+    }
+    
+    .animals__block:hover .slider__text {
+        bottom: 3.75vw;
+    }
+    
+    .slider__text__name {
+        font-size: 1vw;
+        line-height: 1.4vw;
+        height: 1.375vw;
+    }
+    
+    .slider__text__place {
+        font-size: 0.937vw;
+        line-height: 1.125vw;
+        height: 1.125vw;
+    }
+
+    .animals__block__info {
+        height: 3.75vw;
+        margin-top: -0.312vw;
+    }
+    
+    .animals__block__info__text {
+        width: 18.75vw;
+    }
+    
+    .animals__block__info__text__name {
+        font-size: 1vw;
+        line-height: 1.4vw;
+        height: 1.375vw;
+        top: 0.5vw;
+        left: 1vw;
+    }
+    
+    .animals__block__info__text__place {
+        font-size: 0.937vw;
+        line-height: 1.125vw;
+        height: 1.125vw;
+        bottom: 0.75vw;
+        left: 1.06vw;
+    }
+    
+    .animals__block__info__image {
+        width: 3vw;
+    }
+    
+    .animals__fruit {
+        background: url('./../../assets/icons/animals-fruit.svg') no-repeat 0.312vw 0.818vw, url('./../../assets/icons/bamboo-green.svg') no-repeat 0.625vw 0.625vw;
+        
+    }
+    
+    .animals__meat {
+        width: 3vw;
+        background: url('./../../assets/icons/fish_icon.svg') no-repeat 0.633vw 1.266vw, url('./../../assets/icons/animals-meat.svg') no-repeat 0.25vw 0.75vw;
+    }
+
+    .section3 {
+        width: 100vw;
+        height: 62.75vw;
+    }
+    
+    .pink__and__feed {
+        width: 72.5vw;
+        height: 52.187vw;
+        backdrop-filter: blur(2px);
+        border-radius: 1.25vw;
+        top: -1vw;
+    }
+    
+    .pink__and__feed__inner {
+        height: 38.81vw;
+        top: 2.56vw;
+    }
+
+    .paf__title {
+        font-size: 3vw;
+        line-height: 3.625vw;
+        width: 28.93vw;
+        height: 3.625vw;
+        left: 21.875vw;
+    }
+    
+    .paf__title2 {
+        font-size: 1.5vw;
+        top: 5.5vw;
+        left: 6.187vw;
+    }
+    
+    .paf__text {
+        font-size: 1vw;
+        line-height: 1.31vw;
+        width: 66.31vw;
+        height: 1.31vw;
+        top: 9.81vw;
+        left: 6.187vw;
+    }
+    
+    .paf__text2 {
+        font-size: 1vw;
+        width: 53.93vw;
+        height: 2.625vw;
+        top: 11.75vw;
+        left: 6.187vw;
+    }
+    
+    .emergency__line {
+        width: 11.125vw;
+        height: 0.0625vw;
+        top: 14.43vw;
+        left: 11.625vw;
+    }
+    
+    .paf__block {
+        width: 47.75vw;
+        height: 20.68vw;
+        left: 12.375vw;
+    }
+    
+    .paf__block__title {
+        font-size: 2.25vw;
+        line-height: 2.925vw;
+        width: 13.06vw;
+        height: 2.937vw;
+    }
+
+    .paf__block__diagram {
+        width: 47.75vw;
+        height: 15.25vw;
+    }
+    
+    .paf__image__block {
+        width: 10.5vw;
+        height: 15.25vw;
+    }
+    
+    .paf__white__square {
+        height: 10.5vw;
+        border-radius: 0.312vw;
+    }
+    
+    .pay__icon {
+        background: white url('./../../assets/icons/pay.svg') no-repeat center;
+        background-size: 100%;
+    }
+    
+    .zoo__icon {
+        background: white url('./../../assets/icons/zoo.svg') no-repeat center;
+        background-size: 100%;
+    }
+    
+    .monkey__icon {
+        background: white url('./../../assets/icons/monkey.svg') no-repeat center;
+        background-size: 100%;
+    }
+    
+    .paf__image__text {
+        font-size: 1vw;
+        line-height: 1.4vw;
+        width: 10.5vw;
+        height: 2.875vw;
+    }
+    
+    .paf__arrow__block {
+        width: 8.125vw;
+        height: 10.5vw;
+        background: url('./../../assets/icons/paf-arrow.svg') no-repeat center;
+    }
+    
+    .section4 {
+        width: 100vw;
+        height: 57.437vw;
+    }
+
+    .flower__four__box {
+        width: 18.8vw;
+        height: 18.465vw;
+        bottom: 22.125vw;
+        right: 0px;
+        position: absolute;
+        overflow: hidden;
+        z-index: 10;
+    }
+    
+    .flower__four {
+        width: 18.8vw;
+        height: 18.465vw;
+        right: -7vw;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .testimonials {
+        width: 72.5vw;
+        height: 37.437vw;
+        top: -1.125vw;
+    }
+    
+    .testimonials__title {
+        font-size: 2.25vw;
+        line-height: 2.925vw;
+        width: 12.875vw;
+        height: 2.937vw;
+        left: 29.81vw;
+    }
+    
+    .testimonials__block {
+        height: 24.43vw;
+        top: 5.875vw;
+    }
+    
+    .opinion {
+        width: 16.68vw;
+        height: 24.437vw;
+        border-radius: 1.25vw;
+        box-shadow: 0px 0.25vw 0.25vw rgba(0, 0, 0, 0.25);
+    }
+    
+    .opinion::before {
+      border-radius: 1.25vw;
+      padding: 0.125vw;
+    }
+    
+    .opinion__header {
+        width: 14.81vw;
+        height: 2.5vw;
+    }
+    
+    .opinion__header__icon {
+        width: 2.56vw;
+        height: 2.5vw;
+        margin-right: 0.312vw;
+    }
+    
+    .user__icon1 {
+        background: url('./../../assets/icons/icon-undefined.svg') no-repeat center;
+    }
+    
+    .user__icon2 {
+        background: url('./../../assets/images/icon-oskar.jpg') no-repeat center;
+    }
+    
+    .user__icon3 {
+        background: url('./../../assets/images/icon-fredericka.jpg') no-repeat center;
+    }
+    
+    .user__icon4 {
+        background: url('./../../assets/images/icon-mila.jpg') no-repeat center;
+    }
+
+    .opinion__header__text {
+        width: 12.25vw;
+        height: 2.312vw;
+    }
+    
+    .opinion__header__text__name {
+        font-size: 1vw;
+        line-height: 1.2vw;
+        height: 1.187vw;
+    }
+    
+    .opinion__header__text__meta {
+        font-size: 0.937vw;
+        line-height: 1.125vw;
+        height: 1.125vw;
+    }
+    
+    .opinion__body {
+        font-size: 0.937vw;
+        line-height: 1.125vw;
+        width: 14.81vw;
+        height: 19.31vw;
+    }
+    
+    .testimonials__slider__bar {
+        width: 37.437vw;
+        height: 0.5vw;
+        top: 31.625vw;
+        left: 17.5vw;
+        border-radius: 0.312vw;
+    }
+    
+    .slider__bar__part {
+        width: 7.199vw;
+        border-radius: 0.312vw;
+    }
+    
+    .slider__bar__part__many {
+        width: 7.199vw;
+        border-radius: 0.312vw;
+    }
+
+    footer {
+        width: 100vw;
+        height: 27.687vw;
+    }
+    
+    .footer__container {
+        width: 72.5vw;
+        height: 22.062vw;
+    }
+    
+    .logo__footer {
+        font-size: 1.188vw;
+        line-height: 1.53vw;
+        width: 5.125vw;
+        height: 3.25vw;
+        border: white solid 1px;
+        border-radius: 0.125vw;
+        background: url('./../../assets/icons/bamboo.svg') no-repeat;
+        background-position: 0.687vw 1.352vw;
+    }
+
+    .button5__link {
+        width: 18.625vw;
+        height: 3.375vw;
+        top: 3.125vw;
+        left: 0px;
+    }
+    
+    .social {
+        width: 6.937vw;
+        height: 8.437vw;
+        top: 13.687vw;
+    }
+    
+    .social__block {
+        height: 1.625vw;
+    }
+    
+    .social__ellips {
+        width: 1.625vw;
+        height: 1.625vw;
+    }
+    
+    .social__name {
+        top: 0.312vw;
+        left: 2.375vw;
+    }
+    
+    .fb__logo {
+        background:  url('./../../assets/icons/fb-logo.svg') no-repeat center;
+    }
+    
+    .tw__logo {
+        background: url('./../../assets/icons/tw-logo.svg') no-repeat center;
+    }
+    
+    .insta__logo {
+        background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/insta-logo.svg') no-repeat center;
+    }
+    
+    .you__logo {
+        background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/you-logo.svg') no-repeat center;
+    }
+
+    .nav__footer {
+        width: 22.625vw;
+        height: 1.375vw;
+        left: 25vw;
+    }
+    
+    .subscribe {
+        width: 22.937vw;
+        height: 5.31vw;
+    }
+    
+    .subscribe__title {
+        width: 14.81vw;
+        height: 1.812vw;
+    }
+    
+    .subscribe__title__text {
+        font-size: 1.5vw;
+        line-height: 1.812vw;
+    }
+    
+    .submit__block {
+        height: 2.625vw;
+    }
+    
+    .email__input {
+        font-size: 1vw;
+        line-height: 1.4vw;
+        width: 13.75vw;
+        height: 2.375vw;
+        text-indent: 0.625vw;
+    }
+    
+    .email__input::placeholder {
+        font-size: 1vw;
+        line-height: 1.4vw;
+    }
+    
+    .submit__button {
+        font-size: 1vw;
+        width: 8.062vw;
+        height: 2.625vw;
+        top: 2.687vw;
+        left: 14.875vw;
+    }
+    
+    .copyright {
+        width: 14.25vw;
+        height: 3.25vw;
+    }
+    
+    .copyright__first {
+        font-size: 1vw;
+        line-height: 1.3vw;
+        width: 13.75vw;
+        height: 1.31vw;
+    }
+    
+    .copyright__second {
+        font-size: 1vw;
+        line-height: 1.3vw;
+        width: 14.25vw;
+        height: 1.31vw;
+    }
+    
+}

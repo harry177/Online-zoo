@@ -108,10 +108,14 @@ a {
 .nb1 {
     width: 43px;
     margin: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.nb1:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    cursor: pointer;
 }
 
 .nb2 {
@@ -143,14 +147,10 @@ a {
 .nb4 {
     width: 51px;
     margin: 0px;
-    color: white;
-    cursor: pointer;
-}
-
-.nb4:hover {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    cursor: pointer;
 }
 
 .nb5 {
@@ -800,6 +800,7 @@ footer {
     position: absolute;
     top: 43px;
     left: 238px;
+    cursor: pointer;
 }
 
 .copyright {
