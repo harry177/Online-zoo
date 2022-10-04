@@ -66,6 +66,16 @@
         height: 1.375vw;
     }
 
+    .burger__menu {
+        display: none;
+    }
+
+    main {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .section1 {
         width: 100vw;
         height: 43.75vw;
@@ -309,7 +319,7 @@
         height: 62.75vw;
     }
     
-    .pink__and__feed {
+    .pick__and__feed {
         width: 72.5vw;
         height: 52.187vw;
         backdrop-filter: blur(2px);
@@ -317,7 +327,7 @@
         top: -1vw;
     }
     
-    .pink__and__feed__inner {
+    .pick__and__feed__inner {
         height: 38.81vw;
         top: 2.56vw;
     }

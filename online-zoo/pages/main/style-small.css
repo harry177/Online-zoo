@@ -154,6 +154,10 @@
         -webkit-text-fill-color: transparent;
     }
 
+    .burger__menu {
+        display: none;
+    }
+
     main {
         width: 100%;
         display: flex;
@@ -608,7 +612,7 @@
         opacity: 0.9;
     }
     
-    .pink__and__feed {
+    .pick__and__feed {
         width: 940px;
         height: 796px;
         background: rgba(253, 253, 255, 0.52);
@@ -617,7 +621,7 @@
         position: relative;
     }
     
-    .pink__and__feed__inner {
+    .pick__and__feed__inner {
         width: inherit;
         height: 592px;
         position: relative;

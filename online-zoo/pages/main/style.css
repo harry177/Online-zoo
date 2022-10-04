@@ -184,6 +184,10 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+.burger__menu {
+    display: none;
+}
+
 main {
     width: 100%;
     display: flex;
@@ -632,7 +636,7 @@ main {
     opacity: 0.9;
 }
 
-.pink__and__feed {
+.pick__and__feed {
     width: 1160px;
     height: 835px;
     background: rgba(253, 253, 255, 0.52);
@@ -642,7 +646,7 @@ main {
     top: -16px;
 }
 
-.pink__and__feed__inner {
+.pick__and__feed__inner {
     width: inherit;
     height: 621px;
     position: relative;
@@ -1203,4 +1207,14 @@ footer {
     height: 21px;
     color: white;
     margin: 0px;
+}
+
+
+
+
+@media (max-width: 2000px) {
+    .button2 {
+        left: 41.625vw;
+        position: absolute;
+    }
 }
