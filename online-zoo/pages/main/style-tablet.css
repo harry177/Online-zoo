@@ -1,4 +1,4 @@
-@media (max-width: 640px) {
+@media (width: 640px) {
 
     .wrapper {
         display: flex;
@@ -13,7 +13,6 @@
         justify-content: center;
         width: 100%;
         height: 34px;
-        top: 0px;
         background-color: black;
         position: relative;
         z-index: 50;
@@ -39,7 +38,7 @@
     .logo {
         width: 47px;
         height: 29px;
-        border: white solid 1px;
+        border: none;
         border-radius: 2px;
         text-align: center;
         background: url('./../../assets/icons/bamboo.svg') no-repeat;
@@ -258,6 +257,7 @@
     
     .button5 {
         border-radius: 5px;
+        top: 42px;
     }
 
     .section2 {
@@ -306,7 +306,7 @@
         width: 231px;
         height: 476px;
         top: 375px;
-        left: 418px;
+        right: 0px;
         position: absolute;
         overflow: hidden;
     }
@@ -644,8 +644,9 @@
     .pick__and__feed {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        width: 640px;
+        justify-content: space-between;
+        align-items: center;
+        width: inherit;
         height: 741px;
         background: rgba(253, 253, 255, 0.52);
         backdrop-filter: blur(2px);
@@ -655,8 +656,8 @@
     }
     
     .pick__and__feed__inner {
-        width: inherit;
-        height: 577px;
+        width: 600px;
+        height: 671px;
         position: relative;
         top: -0.1px;
     }
@@ -672,7 +673,7 @@
         height: 50px;
         color: #FE9013;
         top: 10px;
-        left: 120px;
+        left: 98px;
         position: relative;
         margin: 0px;
     }
@@ -688,7 +689,7 @@
         color: #333B41;
         position: absolute;
         margin: 0px;
-        margin-left: -30px;
+        left: 0px;
         word-wrap: break-word;
     }
     
@@ -702,8 +703,8 @@
         width: 600px;
         height: 42px;
         margin: 0px;
-        margin-left: -30px;
-        margin-top: 25px;
+        left: 0px;
+        margin-top: none;
         word-wrap: break-word;
         white-space: normal;
     }
@@ -718,7 +719,7 @@
         width: 600px;
         height: 42px;
         margin: 0px;
-        margin-left: -30px;
+        left: 0px;
         margin-top: 27px;
         word-wrap: break-word;
     }
@@ -737,8 +738,8 @@
         height: 1px;
         background: #FE9013;
         position: absolute;
-        top: 218px;
-        left: 200px;
+        top: 255px;
+        left: 357px;
     }
     
     .paf__block {
@@ -749,9 +750,12 @@
         width: 588px;
         height: 311px;
         margin: 0px;
-        margin-left: -64px;
-        margin-top: 25px;
+        margin-left: none;
+        margin-top: none;
         position: absolute;
+        top: 276px;
+        left: 0px;
+        bottom: 0px;
     }
     
     .paf__block__title {
@@ -834,18 +838,19 @@
     }
 
     .flower__four__box {
-        width: 25.48vw;
-        height: 23.99vw;
-        bottom: 272px;
+        width: 23.418vw;
+        height: 22.99vw;
+        bottom: 255px;
         right: 0px;;
         position: absolute;
         overflow: hidden;
     }
     
     .flower__four {
-        width: 35.48vw;
-        height: 33.49vw;
-        right: -14.843vw;
+        width: 28.418vw;
+        height: 27.99vw;
+        right: -11vw;
+        position: absolute;
     }
     
     .testimonials {
@@ -919,6 +924,7 @@
         display: flex;
         width: 237px;
         height: 40px;
+        margin-left: 15px;
     }
     
     .opinion__header__icon {
@@ -984,6 +990,7 @@
         height: 38px;
         margin: 0px;
         overflow: hidden;
+        margin-left: 15px;
     }
     
     .testimonials__slider__bar {
@@ -1045,7 +1052,7 @@
         color: white;
         width: 82px;
         height: 52px;
-        border: white solid 1px;
+        border: white solid 0.01px;
         border-radius: 2px;
         text-align: center;
         background: url('./../../assets/icons/bamboo.svg') no-repeat;
@@ -1057,7 +1064,7 @@
         width: 298px;
         height: 54px;
         position: absolute;
-        top: 50px;
+        top: 42px;
         left: 0px;
     }
     
@@ -1090,7 +1097,7 @@
         height: 26px;
         border-radius: 50%;
         margin: 0px;
-        position: absolute;
+        position: relative;
         background: rgba(196, 196, 196, 0.5);
     }
     
@@ -1133,11 +1140,11 @@
     .nav__footer {
         display: flex;
         justify-content: space-between;
-        width: 332px;
+        width: 299px;
         height: 22px;
         position: absolute;
         bottom: 0px;
-        left: 29px;
+        left: 0px;
     }
     
     .subscribe {
@@ -1207,6 +1214,16 @@
         top: 43px;
         left: 238px;
         cursor: pointer;
+    }
+
+    .absolut__social {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 26px;
+        height: 164px;
+        position: absolute;
+        right: 0px;
     }
     
     .copyright {

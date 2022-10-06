@@ -28,8 +28,10 @@
     src: url('./../../assets/fonts/Roboto/Roboto-Light.ttf');
 }
 
+
 body {
     margin: 0px;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -38,6 +40,7 @@ body {
     width: 100%;
     margin: 0 auto;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -183,12 +186,17 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .section1 {
-    width: 100vw;
+    width: 100%;
     height: 390px;
     background: url("./../../assets/images/panda\ donate.jpg") no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .orange__button {
@@ -213,23 +221,9 @@ a {
     background: #4B9200;
 }
 
-.button2 {
-    left: 651px;
-    top: 2455px;
-    border-radius: 25px;
-    position: absolute;
-}
-
 .button3 {
-    top: 131px;
     border-radius: 25px;
-    position: absolute;
-}
-
-.button4 {
-    bottom: 0px;
-    border-radius: 5px;
-    position: absolute;
+    margin-bottom: 23px;
 }
 
 .button5 {
@@ -248,15 +242,19 @@ a {
 }
 
 .section2__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 1160px;
     height: inherit;
+    position: relative;
 }
 
 .section2__text__block {
     width: inherit;
     height: 238px;
-    top: 40px;
     position: relative;
+    margin-top: 40px;
 }
 
 .section2__text__title {
@@ -301,20 +299,34 @@ a {
 }
 
 .pick__and__feed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: inherit;
     height: 964px;
     background: rgba(255, 255, 255, 0.52);
     backdrop-filter: blur(2px);
     border-radius: 20px;
     position: relative;
-    top: 100px;
+    margin-bottom: 180px;
 }
 
 .paf__inner__block {
-    width: 810px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 976px;
     height: 862px;
-    position: absolute;
     top: 40px;
+}
+
+.paf__inner__block__upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    height: 107px;
 }
 
 .paf__inner__text__title {
@@ -326,10 +338,10 @@ a {
     color: #FE9013;
     width: 463px;
     height: 58px;
-    left: 250px;
     margin: 0px;
     display: inline-block;
     position: relative;
+    margin-right: 10px;
 }
 
 .paf__inner__text__text {
@@ -341,18 +353,25 @@ a {
     color: #333B41;
     width: inherit;
     height: 29px;
-    top: 20px;
     margin: 0px;
     position: relative;
 }
 
+.paf__inner__block__center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    height: 440px;
+}
+
 .paf__pandas__block {
-    display: inline-block;
     width: 532px;
     height: 246px;
-    top: 80px;
-    left: 215px;
     position: relative;
+    margin-top: 15px;
+    margin-right: 10px;
 }
 
 .panda__diet__block {
@@ -361,6 +380,7 @@ a {
     top: 100px;
     left: 0px;
     position: relative;
+    margin-top: none;
 }
 
 .panda__diet__block__digit {
@@ -432,7 +452,7 @@ a {
 .diagram__line {
     display: flex;
     align-items: center;
-    width: 810px;
+    width: inherit;
     height: 40px;
     top: 7px;
     position: relative;
@@ -481,19 +501,8 @@ a {
     position: relative;
     width: 70px;
     margin-top: 2px;
+    top: -1px;
     z-index: 100;
-}
-
-.price::before {
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 6px;
-    top: -20.5px;
-    background: url('./../../assets/icons/yellow-radio.svg') no-repeat center;
-    z-index: 50;
-    cursor: pointer;
 }
 
 .donation {
@@ -502,13 +511,27 @@ a {
     font-size: 26px;
     line-height: 36.4px;
     color: #333B41;
-    margin: 20px -1px 50px;
     text-transform: uppercase;
+    margin-top: 38px;
     transition: ease-in-out 0.2s;
 }
 
-.donation input:checked + label {
+.price input:checked + label {
     color: #FE9013;
+  }
+
+.price label::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url('./../../assets/icons/yellow-radio.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 6px;
+    top: -20.5px;
+    z-index: 50;
+    cursor: pointer;
 }
 
 .price input:checked + label:before {
@@ -522,13 +545,25 @@ a {
     z-index: 50;
 }
 
+.price input {
+    display: none;
+}
+
+.paf__inner__block__lower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 237px;
+}
+
 .fields__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 301px;
-    height: 237.02px;
-    position: relative;
-    margin: 0px;
-    top: 285px;
-    left: 340px;
+    height: inherit;
 }
 
 .paf__amount {
@@ -539,7 +574,6 @@ a {
     line-height: 22.4px;
     width: 268px;
     height: 54px;
-    left: 13px;
     position: relative;
     background: inherit;
     background-image: url('./../../assets/icons/dollar-vector.svg');
@@ -574,15 +608,14 @@ a {
     justify-content: space-between;
     width: 218px;
     height: 21px;
-    top: 25px;
-    left: 41.5px;
     position: relative;
     margin: 0px;
+    margin-bottom: 30px;
 }
 
 .paf__radio__period {
     width: 84px;
-    height: 21px;
+    height: 25px;
 }
 
 .radio__text {
@@ -608,7 +641,7 @@ a {
     width: 301px;
     height: 22px;
     bottom: 0px;
-    position: absolute;
+    position: relative;
     margin: 0px;
 }
 
@@ -628,6 +661,7 @@ footer {
     width: 1160px;
     height: 353px;
     position: relative;
+    margin-bottom: 15px;
 }
 
 .logo__footer {
@@ -644,6 +678,15 @@ footer {
     text-align: center;
     background: url('./../../assets/icons/bamboo.svg') no-repeat;
     background-position: 11px 21.64px;
+}
+
+.button5__link {
+    display: flex;
+    width: 298px;
+    height: 54px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
 }
 
 .social {
@@ -680,6 +723,11 @@ footer {
 }
 
 .social__name {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22.4px;
     color: white;
     margin: 0px;
     top: 5px;
@@ -791,6 +839,10 @@ footer {
     top: 43px;
     left: 238px;
     cursor: pointer;
+}
+
+.absolut__social {
+    display: none;
 }
 
 .copyright {

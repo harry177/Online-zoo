@@ -1,4 +1,4 @@
-@media (width: 1000px) {
+@media (max-width: 640px) and (min-width: 321px) {
     body {
         margin: 0px;
     }
@@ -15,7 +15,7 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        height: 80px;
+        height: 5.312vw;
         background-color: black;
     }
     
@@ -23,7 +23,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 940px;
+        width: 93.75vw;
         height: inherit;
     }
     
@@ -31,26 +31,26 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 576px;
+        width: 90vw;
         height: inherit;
     }
     
     .logo {
-        width: 82px;
-        height: 52px;
+        width: 7.343vw;
+        height: 4.531vw;
         border: white solid 1px;
-        border-radius: 2px;
+        border-radius: 0.312vw;
         text-align: center;
         background: url('./../../assets/icons/bamboo.svg') no-repeat;
-        background-position: 11px 21.64px;
+        background-position: 1.718vw 3.381vw;
     }
     
     .petstory {
         font-family: 'Roboto-Regular';
         font-style: normal;
         font-weight: 400;
-        font-size: 19.01px;
-        line-height: 24.5px;
+        font-size: 1.92vw;
+        line-height: 2.304vw;
         color: white;
         margin: 0px;
     }
@@ -60,7 +60,7 @@
     }
     
     .nav {
-        display: flex;
+        display: none;
         justify-content: space-between;
         align-items: center;
         width: 431px;
@@ -71,8 +71,8 @@
         font-family: 'Roboto-Regular';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 22.4px;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
         height: inherit;
     }
     
@@ -138,6 +138,7 @@
     }
     
     .designed {
+        display: none;
         font-family: 'Roboto-Regular';
         font-style: normal;
         font-weight: 500;
@@ -154,6 +155,13 @@
         -webkit-text-fill-color: transparent;
     }
 
+    .burger__menu {
+        display: flex;
+        width: 2.812vw;
+        height: 1.562vw;
+        background: url('./../../assets/icons/burger-menu-line.svg') no-repeat, url('./../../assets/icons/burger-menu-line.svg') no-repeat 0px 0.625vw, url('./../../assets/icons/burger-menu-line.svg') no-repeat 0px 1.24vw;
+    }
+
     main {
         width: 100%;
         display: flex;
@@ -163,20 +171,20 @@
     
     .section1 {
         width: 100vw;
-        height: 390px;
+        height: 52.343vw;
         background: url("./../../assets/images/panda\ donate.jpg") no-repeat;
         background-size: cover;
     }
     
     .orange__button {
-        font-size: 16px;
-        width: 298px;
-        height: 54px;
+        font-size: 2.5vw;
+        width: 46.562vw;
+        height: 8.437vw;
     }
     
     .button3 {
-        border-radius: 25px;
-        margin-bottom: 20px;
+        border-radius: 3.9vw;
+        margin-bottom: 4.218vw;
     }
 
     .button5 {
@@ -186,172 +194,188 @@
 
     .section2 {
         width: 100vw;
-        height: 1333px;
+        height: 208.281vw;
     }
 
     .section2__container {
-        width: 940px;
+        width: 93.75vw;
     }
 
     .section2__text__block {
-        height: 298px;
-        margin-top: 40px;
+        height: 48.281vw;
+        margin-top: 4.687vw;
     }
     
     .section2__text__title {
-        font-size: 36px;
-        line-height: 46.8px;
-        width: 778px;
-        height: 94px;
+        font-size: 3.75vw;
+        line-height: 4.5vw;
+        width: inherit;
+        height: 9.062vw;
     }
     
     .section2__text__text {
-        font-size: 16px;
-        line-height: 22.4px;
-        width: 939px;
-        height: 94px;
-        top: 30px;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        width: inherit;
+        height: 24.062vw;
+        top: 3.125vw;
     }
     
     .section2__donation__title {
-        font-size: 36px;
-        line-height: 46.8px;
-        width: 341px;
-        height: 47px;
-        margin-top: 30px;
+        font-size: 5.625vw;
+        line-height: 7.312vw;
+        width: 53.281vw;
+        height: 7.343vw;
+        margin-top: 0.781vw;
+        top: 6.875vw;
     }
     
     .pick__and__feed {
-        height: 918px;
-        border-radius: 1.25vw;
-        margin-bottom: 30px;
+        height: 143.437vw;
+        border-radius: 3.125vw;
+        margin-bottom: 7.187vw;
     }
     
     .paf__inner__block {
-        width: 940px;
-        height: 862px;
-        top: 20px;
+        width: inherit;
+        height: 135.625vw;
+        top: 2.968vw;
     }
 
     .paf__inner__block__upper {
-        height: 90px;
+        height: 21.25vw;
     }
     
     .paf__inner__text__title {
-        font-size: 48px;
-        line-height: 57.6px;
-        width: 463px;
-        height: 58px;
+        font-size: 7.5vw;
+        line-height: 9vw;
+        width: 72.343vw;
+        height: 9.062vw;
         margin: 0px;
-        margin-right: 10px;
-        margin-top: -10px;
+        margin-right: 0.312vw;
+        margin-top: 0.781vw;
     }
     
     .paf__inner__text__text {
-        font-size: 24px;
-        line-height: 28.8px;
-        width: 849px;
-        height: 29px;
+        font-size: 3.75vw;
+        line-height: 4.5vw;
+        width: inherit;
+        height: 9.062vw;
+        text-align: center;
+        margin-top: 3.437vw;
     }
 
     .paf__inner__block__center {
         height: 458px;
+        margin-top: 40px;
     }
     
     .paf__pandas__block {
-        width: 532px;
-        height: 246px;
-        margin-top: 15px;
-        margin-right: 10px;
+        width: 83.125vw;
+        height: 38.437vw;
+        margin-top: 2.343vw;
+        margin-right: 1.562vw;
     }
     
     .panda__diet__block {
-        width: 159px;
-        height: 91px;
-        top: 97px;
+        width: 24.843vw;
+        height: 14.218vw;
+        top: 15.156vw;
     }
     
     .panda__diet__block__digit {
-        font-size: 72px;
-        line-height: 57.6px;
-        width: 82px;
-        height: 58px;
-        left: 37px;
+        font-size: 11.25vw;
+        line-height: 9vw;
+        width: 12.812vw;
+        height: 9.062vw;
+        left: 5.781vw;
     }
     
     .panda__diet__block__text {
-        font-size: 16px;
-        line-height: 22.4px;
-        height: 22px;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        height: 3.437vw;
         bottom: 0px;
     }
     
     .calculation__sign {
-        width: 14px;
-        height: 14px;
-        top: 132px;
-        right: 345px;
+        width: 2.187vw;
+        height: 2.187vw;
+        top: 20.625vw;
+        right: 53.906vw;
         background-size: 100%;
     }
     
     .panda__icon__block {
-        width: 284px;
-        height: 246px;
+        width: 44.375vw;
+        height: 38.437vw;
         top: 0px;
         right: 0px;
         background-size: 100%;
     }
     
     .paf__diagram {
-        width: 830px;
-        height: 114px;
+        width: inherit;
+        height: 16.25vw;
+        margin-top: 5vw;
+        top: 72vw;
     }
     
     .amount {
-        font-size: 16px;
-        line-height: 22.4px;
-        width: 57px;
-        height: 22px;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        width: 8.906vw;
+        height: 3.437vw;
     }
     
     .diagram__line {
-        width: 810px;
-        height: 40px;
-        top: 10px;
+        width: inherit;
+        height: 6.25vw;
+        top: 1.562vw;
     }
     
     .diagram__black__block {
-        height: 27px;
-        border-radius: 2px;
+        height: 4.218vw;
+        border-radius: 0.312vw;
     }
     
     .diagram__black__line {
-        width: 785px;
-        height: 2px;
+        width: 81.875vw;
+        height: 0.312vw;
     }
     
     .prices__container {
-        width: 100%;
-        height: 126px;
-        top: 37px;
+        width: 85.937vw;
+        height: 19.687vw;
+        top: 5.781vw;
+        left: 4.687vw;
     }
 
     .price__5000 {
         display: none;
     }
+
+    .price__2000 {
+        display: none;
+    }
+
+    .price__1000 {
+        display: none;
+    }
     
     .price {
-        font-size: 26px;
-        line-height: 36.4px;
-        width: 70px;
-        margin-top: 2px;
-        top: -1px;
+        font-size: 4.062vw;
+        line-height: 5.687vw;
+        width: 6.25vw;
+        margin-top: 0.312vw;
+        top: -0.156vw;
     }
     
     .donation {
-        font-size: 26px;
-        line-height: 36.4px;
-        margin-top: 45px;
+        font-size: 4.062vw;
+        line-height: 5.687vw;
+        margin-top: 6.25vw;
+        margin-left: -1.562vw;
     }
     
     .price input:checked + label {
@@ -367,7 +391,7 @@
         background-repeat: no-repeat;
         background-position: center;
         left: 0.375vw;
-        top: -5px;
+        top: 0px;
         z-index: 50;
         cursor: pointer;
     }
@@ -375,11 +399,11 @@
     .price input:checked + label:before {
         content: "";
         position: absolute;
-        width: 40px;
-        height: 40px;
+        width: 6.25vw;
+        height: 6.25vw;
         background: url('./../../assets/icons/roller_icon.svg') no-repeat center;
-        top: -5px;
-        left: 2px;
+        top: -0.781vw;
+        left: 0.312vw;
         z-index: 50;
     }
     
@@ -388,27 +412,27 @@
     }
     
     .paf__inner__block__lower {
-        height: 257px;
+        height: 36.562vw;
     }
     
     .fields__container {
-        width: 301px;
+        width: 47.031vw;
     }
     
     .paf__amount {
-        font-size: 16px;
-        line-height: 22.4px;
-        width: 268px;
-        height: 54px;
-        text-indent: 10px;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        width: 28.125vw;
+        height: 6.562vw;
+        text-indent: 1.562vw;
     }
     
     .paf__amount::placeholder {
         font-family: 'Roboto-Regular';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 22.4px;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
         color: #929699;
     }
     
@@ -423,19 +447,19 @@
       } 
     
     .paf__radio {
-        width: 218px;
-        height: 21px;
-        margin-top: 9px;
+        width: 34.062vw;
+        height: 3.281vw;
+        margin-top: 3.125vw;
     }
     
     .paf__radio__period {
-        width: 84px;
-        height: 25px;
+        width: 16.5vw;
+        height: 3.281vw;
     }
     
     .radio__text {
-        font-size: 16px;
-        line-height: 22.4px;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
     }
     
     .radio__hole {
@@ -443,61 +467,64 @@
     }
     
     .paf__postcriptum {
-        font-size: 16px;
-        line-height: 22.4px;
-        width: 301px;
-        height: 22px;
-        margin-bottom: 20px;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        width: 47.031vw;
+        height: 3.437vw;
+        margin-bottom: 0.781vw;
     }
 
     footer {
         width: 100vw;
-        height: 443px;
+        height: 44.062vw;
     }
     
     .footer__container {
-        width: 939px;
-        height: 353px;
+        width: 93.75vw;
+        height: 40.312vw;
+        margin-bottom: 0px;
     }
     
     .logo__footer {
-        font-size: 19.01px;
-        line-height: 22.82px;
-        width: 82px;
-        height: 52px;
+        font-size: 2.97vw;
+        line-height: 3.565vw;
+        width: 12.812vw;
+        height: 8.125vw;
         border: white solid 1px;
         border-radius: none;
         background: url('./../../assets/icons/bamboo.svg') no-repeat;
-        background-position: 11.13px 19px;
+        background-position: 1.739vw 2.968vw;
         background-size: 15%;
         text-align: center;
     }
 
     .button5__link {
-        width: 298px;
-        height: 54px;
-        top: 121px;
+        width: 46.562vw;
+        height: 8.437vw;
+        top: 13.281vw;
         left: 0px;
     }
     
     .social {
+        display: none;
         width: 111px;
         height: 134px;
         top: 219px;
     }
     
     .social__block {
-        height: 26px;
+        height: 4.062vw;
     }
     
     .social__ellips {
-        width: 26px;
-        height: 26px;
+        width: 4.062vw;
+        height: 4.062vw;
+        position: relative;
     }
     
     .social__name {
-        top: 5px;
-        left: 38px;
+        top: 0.781vw;
+        left: 5.937vw;
     }
     
     .fb__logo {
@@ -517,13 +544,14 @@
     }
 
     .nav__footer {
-        width: 332px;
-        height: 22px;
+        width: 46.25vw;
+        height: 3.437vw;
         margin: 0px;
-        left: 304px;
+        left: 0px;
     }
     
     .subscribe {
+        display: none;
         width: 367px;
         height: 85px;
         right: 30px;
@@ -565,25 +593,31 @@
     }
 
     .absolut__social {
-        display: none;;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 4.062vw;
+        height: 25.625vw;
+        position: absolute;
+        right: 0px;
     }
     
     .copyright {
-        width: 228px;
-        height: 52px;
+        width: 35.625vw;
+        height: 8.125vw;
     }
     
     .copyright__first {
-        font-size: 16px;
-        line-height: 20.8px;
-        width: 220px;
-        height: 21px;
+        font-size: 2.5vw;
+        line-height: 3.25vw;
+        width: 34.375vw;
+        height: 3.281vw;
     }
     
     .copyright__second {
-        font-size: 16px;
-        line-height: 20.8px;
-        width: 228px;
-        height: 21px;
+        font-size: 2.5vw;
+        line-height: 3.25vw;
+        width: 35.625vw;
+        height: 3.281vw;
     }
 }

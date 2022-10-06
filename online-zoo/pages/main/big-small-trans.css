@@ -400,17 +400,17 @@
     
     .pay__icon {
         background: white url('./../../assets/icons/pay.svg') no-repeat center;
-        background-size: 100%;
+        
     }
     
     .zoo__icon {
         background: white url('./../../assets/icons/zoo.svg') no-repeat center;
-        background-size: 100%;
+        
     }
     
     .monkey__icon {
         background: white url('./../../assets/icons/monkey.svg') no-repeat center;
-        background-size: 100%;
+        
     }
     
     .paf__image__text {
@@ -434,19 +434,17 @@
     .flower__four__box {
         width: 18.8vw;
         height: 18.465vw;
-        bottom: 22.125vw;
+        bottom: 21.7vw;
         right: 0px;
         position: absolute;
         overflow: hidden;
-        z-index: 10;
     }
     
     .flower__four {
         width: 18.8vw;
         height: 18.465vw;
-        right: -7vw;
+        right: -6.3vw;
         position: absolute;
-        z-index: 10;
     }
 
     .testimonials {
@@ -620,7 +618,7 @@
     }
     
     .subscribe {
-        width: 22.937vw;
+        width: 23.937vw;
         height: 5.31vw;
     }
     

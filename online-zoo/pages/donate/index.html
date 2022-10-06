@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./style-small.css">
     <link rel="stylesheet" href="./big-small-trans.css">
+    <link rel="stylesheet" href="./small-tablet-trans.css">
+    <link rel="stylesheet" href="./tablet-mobile-trans.css">
+    <link rel="stylesheet" href="./style-mobile.css">
     <title>Document</title>
 </head>
 <body>
@@ -31,13 +33,12 @@
             </div>
             <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online">
                 <div class="designed">Designed by &#169;</div>
+                <div class="burger__menu"></div>
             </a>
         </div>
     </header>
     <main>
-        <section>
-            <div class="section1"></div>
-        </section>
+        <section class="section1"></section>
         <section class="section2">
             <div class="section2__container">
                 <div class="section2__text__block">
@@ -52,165 +53,184 @@
                 </div>
                 <div class="pick__and__feed">
                     <div class="paf__inner__block">
-                        <p class="paf__inner__text__title">Pick and feed a friend</p>
-                        <p class="paf__inner__text__text">We know the animals bring you joy, and in these extraordinary 
+                        <div class="paf__inner__block__upper">
+                            <p class="paf__inner__text__title">Pick and feed a friend</p>
+                            <p class="paf__inner__text__text">We know the animals bring you joy, and in these extraordinary 
                             times, we’re glad.</p>
-                        <div class="paf__pandas__block">
-                            <div class="panda__diet__block">
-                                <div class="panda__diet__block__digit">4</div>
-                                <p class="panda__diet__block__text">Panda diet for the day.</p>
-                            </div>
-                            <div class="calculation__sign"></div>
-                            <div class="panda__icon__block"></div>
                         </div>
-                        <div class="paf__diagram">
-                            <p class="amount">Amount</p>
-                            <div class="diagram__line">
-                                <div class="diagram__black__block">
-                                    <div class="diagram__black__line"></div>
+                        <div class="paf__inner__block__center">
+                            <div class="paf__pandas__block">
+                                <div class="panda__diet__block">
+                                    <div class="panda__diet__block__digit">4</div>
+                                    <p class="panda__diet__block__text">Panda diet for the day.</p>
                                 </div>
+                                <div class="calculation__sign"></div>
+                                <div class="panda__icon__block"></div>
                             </div>
-                            
-                            <div class="prices__container">
-                                <div class="price">
-                                    <input type="radio" name="dollars" id="5000" value="1">
-                                    <label class="donation" for="5000">
-                                        $5000
-                                    </label>
+                            <div class="paf__diagram">
+                                <p class="amount">Amount</p>
+                                <div class="diagram__line">
+                                    <div class="diagram__black__block">
+                                        <div class="diagram__black__line"></div>
+                                    </div>
                                 </div>
-                                <div class="price">
-                                    <input type="radio" name="dollars" id="2000" value="2">
-                                    <label class="donation" for="2000">
-                                        $2000
-                                    </label>
-                                </div>
-                                <div class="price">
-                                    <input type="radio" name="dollars" id="1000" value="3">
-                                    <label class="donation" for="1000">
-                                        $1000
-                                    </label>
-                                </div>
-                                <div class="price">
-                                    <input type="radio" name="dollars" id="500" value="4">
-                                    <label class="donation" for="500">
-                                        $500
-                                    </label>
-                                </div>
-                                <div class="price">
-                                    <input type="radio" name="dollars" id="250" value="5">
-                                    <label class="donation" for="250">
-                                        $250
-                                    </label>
-                                </div>
-                                <div class="price">
-                                    <input type="radio" name="dollars" id="100" value="6">
-                                    <label class="donation" for="100">
-                                        $100
-                                    </label>
-                                </div>
-                                <div class="price">
-                                    <input type="radio" name="dollars" id="50" value="7">
-                                    <label class="donation" for="50">
-                                        $50
-                                    </label>
-                                </div>
-                                <div class="price">
-                                    <input type="radio" name="dollars" id="25" value="8">
-                                    <label class="donation" for="25">
-                                        $25
-                                    </label>
+                                <div class="prices__container">
+                                    <div class="price price__5000">
+                                        <input type="radio" name="dollars" id="5000" value="1">
+                                        <label class="donation" for="5000">
+                                            $5000
+                                        </label>
+                                    </div>
+                                    <div class="price price__2000">
+                                        <input type="radio" name="dollars" id="2000" value="2">
+                                        <label class="donation" for="2000">
+                                            $2000
+                                        </label>
+                                    </div>
+                                    <div class="price price__1000">
+                                        <input type="radio" name="dollars" id="1000" value="3">
+                                        <label class="donation" for="1000">
+                                            $1000
+                                        </label>
+                                    </div>
+                                    <div class="price">
+                                        <input type="radio" name="dollars" id="500" value="4">
+                                        <label class="donation" for="500">
+                                            $500
+                                        </label>
+                                    </div>
+                                    <div class="price">
+                                        <input type="radio" name="dollars" id="250" value="5">
+                                        <label class="donation" for="250">
+                                            $250
+                                        </label>
+                                    </div>
+                                    <div class="price">
+                                        <input type="radio" name="dollars" id="100" value="6" checked>
+                                        <label class="donation" for="100">
+                                            $100
+                                        </label>
+                                    </div>
+                                    <div class="price">
+                                        <input type="radio" name="dollars" id="50" value="7">
+                                        <label class="donation" for="50">
+                                            $50
+                                        </label>
+                                    </div>
+                                    <div class="price">
+                                        <input type="radio" name="dollars" id="25" value="8">
+                                        <label class="donation" for="25">
+                                            $25
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="fields__container">
-                            <input class="paf__amount" type="number" placeholder="Another amount"></input>
-                            <div class="paf__radio">
-                                <div class="paf__radio__period">
-                                    <label class="radio__text">
-                                        <input type="radio" name="choice" class="radio__hole">
-                                        Monthly
-                                    </label>
+                        <div class="paf__inner__block__lower">
+                            <div class="fields__container">
+                                <input class="paf__amount" type="number" placeholder="Another amount"></input>
+                                <div class="paf__radio">
+                                    <div class="paf__radio__period">
+                                        <label class="radio__text">
+                                            <input type="radio" name="choice" class="radio__hole">
+                                            Monthly
+                                        </label>
+                                    </div>
+                                    <div class="paf__radio__period">
+                                        <label class="radio__text">
+                                            <input type="radio" name="choice" class="radio__hole" checked>
+                                            Once
+                                        </label>
+                                    </div>
                                 </div>
-                                <div class="paf__radio__period">
-                                    <label class="radio__text">
-                                        <input type="radio" name="choice" class="radio__hole" checked>
-                                        Once
-                                    </label>
-                                </div>
+                                <button class="orange__button button3">FEED A FRIEND NOW</button>
+                                <p class="paf__postcriptum">Share with your friends on social networks </p>
                             </div>
-                            <button class="orange__button button3">FEED A FRIEND NOW</button>
-                            <p class="paf__postcriptum">Share with your friends on social networks </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+    </main>
         <footer>
             <div class="footer__container">
-                    <a href="./../main/index.html">
-                        <div class="logo__footer">PetStory online</div>
-                    </a>
-                    <div class="subscribe">
-                        <div class="subscribe__title">
-                            <div class="subscribe__title__text">Subscribe to our news</div>
-                        </div>
-                        <div class="submit__block">
-                            <input class="email__input" type="email" placeholder="Enter your email">
-                            <button class="submit__button" type="button">Submit</button>
-                        </div>
+                <a href="./../main/index.html">
+                    <div class="logo__footer">PetStory online</div>
+                </a>
+                <div class="subscribe">
+                    <div class="subscribe__title">
+                        <div class="subscribe__title__text">Subscribe to our news</div>
                     </div>
-                    <a href="./index.html">
-                        <button class="orange__button button5">DONATE FOR VOLUNTEERS</button>
+                    <div class="submit__block">
+                        <input class="email__input" type="email" placeholder="Enter your email">
+                        <button class="submit__button" type="button">Submit</button>
+                    </div>
+                </div>
+                <a href="./index.html" class="button5__link">
+                    <button class="orange__button button5">DONATE FOR VOLUNTEERS</button>
+                </a>
+                <div class="social">
+                    <a href="https://facebook.com">
+                        <div class="social__block">
+                            <div class="social__ellips">
+                                <div class="fb__logo"></div>
+                            </div>
+                            <div class="social__name">Facebook</div>
+                        </div>
                     </a>
-                    <div class="social">
-                        <a href="https://facebook.com">
-                            <div class="social__block">
-                                <div class="social__ellips">
-                                    <div class="fb__logo"></div>
-                                </div>
-                                <div class="social__name">Facebook</div>
+                    <a href="https://twitter.com">
+                        <div class="social__block">
+                            <div class="social__ellips">
+                                <div class="tw__logo"></div>
                             </div>
-                        </a>
-                        <a href="https://twitter.com">
-                            <div class="social__block">
-                                <div class="social__ellips">
-                                    <div class="tw__logo"></div>
-                                </div>
-                                <div class="social__name">Twitter</div>
+                            <div class="social__name">Twitter</div>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com">
+                        <div class="social__block">
+                            <div class="social__ellips">
+                                <div class="insta__logo"></div>
                             </div>
-                        </a>
-                        <a href="https://instagram.com">
-                            <div class="social__block">
-                                <div class="social__ellips">
-                                    <div class="insta__logo"></div>
-                                </div>
-                                <div class="social__name">Instagram</div>
-                            </div>
-                        </a>
-                        <a href="https://youtube.com">
-                            <div class="social__block">
-                                <div class="social__ellips">
+                            <div class="social__name">Instagram</div>
+                        </div>
+                    </a>
+                    <a href="https://youtube.com">
+                        <div class="social__block">
+                            <div class="social__ellips">
                                 <div class="you__logo"></div>
                             </div>
                                 <div class="social__name">YouTube</div>
-                            </div>
-                        </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="nav__footer">
+                    <a href="./../main/index.html">
+                        <p class="nav__block nb1">About</p>
+                    </a>
+                    <p class="nav__block nb2">Map</p>
+                    <p class="nav__block nb3">Zoos</p>
+                    <p class="nav__block nb5">Contact us</p>
+                </div>
+                <div class="copyright">
+                    <p class="copyright__first">Designed by Alisa Samborskaya</p>
+                    <p class="copyright__second">©RSSchool & ©Yem Digital 2021</p>
+                </div>
+                <div class="absolut__social">
+                    <div class="social__ellips">
+                        <div class="fb__logo"></div>
                     </div>
-                    <div class="nav__footer">
-                        <a href="./../main/index.html">
-                            <p class="nav__block nb1">About</p>
-                        </a>
-                        <p class="nav__block nb2">Map</p>
-                        <p class="nav__block nb3">Zoos</p>
-                        <p class="nav__block nb5">Contact us</p>
+                    <div class="social__ellips">
+                        <div class="tw__logo"></div>
                     </div>
-                    <div class="copyright">
-                        <p class="copyright__first">Designed by Alisa Samborskaya</p>
-                        <p class="copyright__second">©RSSchool & ©Yem Digital 2021</p>
+                    <div class="social__ellips">
+                        <div class="insta__logo"></div>
                     </div>
+                    <div class="social__ellips">
+                        <div class="you__logo"></div>
+                    </div>
+                </div>
             </div>
         </footer>
-    </main>
     </div>
     <script src="./script.js"></script>
 </body>

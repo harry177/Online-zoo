@@ -1,0 +1,504 @@
+@media (max-width: 1000px) and (min-width: 641px) {
+    .header {
+        height: 8vw;
+    }
+    
+    .header__container {
+        width: 94vw;
+    }
+
+    .logo__nav__block {
+        width: 57.6vw;
+    }
+    
+    .logo {
+        width: 8.2vw;
+        height: 5.2vw;
+        border: white solid 1px;
+        border-radius: 0.2vw;
+        text-align: center;
+        background: url('./../../assets/icons/bamboo.svg') no-repeat;
+        background-position: 1.1vw 2.164vw;
+    }
+    
+    .petstory {
+        font-size: 1.901vw;
+        line-height: 2.45vw;
+    }
+
+    .nav {
+        width: 43.1vw;
+        height: 2.2vw;
+    }
+    
+    .nav__block {
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+    }
+    
+    .nb1 {
+        width: 4.3vw;
+    }
+    
+    .nb2 {
+        width: 3.2vw;
+    }
+    
+    .nb3 {
+        width: 3.6vw;
+    }
+    
+    .nb4 {
+        width: 5.1vw;
+    }
+    
+    .nb5 {
+        width: 7.8vw;
+    }
+    
+    .designed {
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+        width: 10.5vw;
+        height: 2.2vw;
+    }
+
+    .burger__menu {
+        display: none;
+        width: 18px;
+        height: 10px;
+        background: url('./../../assets/icons/burger-menu-line.svg') no-repeat, url('./../../assets/icons/burger-menu-line.svg') no-repeat 0px 4px, url('./../../assets/icons/burger-menu-line.svg') no-repeat 0px 8px;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section1 {
+        width: 100vw;
+        height: 39vw;
+        background: url("./../../assets/images/panda\ donate.jpg") no-repeat;
+        background-size: cover;
+    }
+    
+    .orange__button {
+        font-size: 1.6vw;
+        width: 29.8vw;
+        height: 5.4vw;
+    }
+    
+    .button3 {
+        border-radius: 2.5vw;
+        margin-bottom: 2vw;
+    }
+
+    .button5 {
+        top: 0px;
+        border-radius: 0.5vw;
+    }
+
+    .section2 {
+        width: 100vw;
+        height: 133.3vw;
+    }
+
+    .section2__container {
+        width: 94vw;
+    }
+
+    .section2__text__block {
+        height: 29.8vw;
+        margin-top: 4vw;
+    }
+    
+    .section2__text__title {
+        font-size: 3.6vw;
+        line-height: 4.68vw;
+        width: 77.8vw;
+        height: 9.4vw;
+    }
+    
+    .section2__text__text {
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+        width: 93.9vw;
+        height: 9.4vw;
+        top: 3vw;
+    }
+    
+    .section2__donation__title {
+        font-size: 3.6vw;
+        line-height: 4.68vw;
+        width: 34.1vw;
+        height: 4.7vw;
+        margin-top: 3vw;
+        top: 2.75vw;
+    }
+    
+    .pick__and__feed {
+        height: 91.8vw;
+        border-radius: 2vw;
+        margin-bottom: 3vw;
+    }
+    
+    .paf__inner__block {
+        width: 94vw;
+        height: 86.2vw;
+        top: 2vw;
+    }
+
+    .paf__inner__block__upper {
+        height: 9vw;
+    }
+    
+    .paf__inner__text__title {
+        font-size: 4.8vw;
+        line-height: 5.76vw;
+        width: 46.3vw;
+        height: 5.8vw;
+        margin: 0px;
+        margin-right: 1vw;
+        margin-top: -1vw;
+    }
+    
+    .paf__inner__text__text {
+        font-size: 2.4vw;
+        line-height: 2.88vw;
+        width: 84.9vw;
+        height: 2.9vw;
+    }
+
+    .paf__inner__block__center {
+        height: 45.8vw;
+    }
+    
+    .paf__pandas__block {
+        width: 53.2vw;
+        height: 24.6vw;
+        margin-top: 1.5vw;
+        margin-right: 1vw;
+    }
+
+    .panda__diet__block {
+        width: 15.9vw;
+        height: 9.1vw;
+        top: 9.7vw;
+    }
+    
+    .panda__diet__block__digit {
+        font-size: 7.2vw;
+        line-height: 5.76vw;
+        width: 8.2vw;
+        height: 5.8vw;
+        left: 3.7vw;
+    }
+    
+    .panda__diet__block__text {
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+        height: 2.2vw;
+        bottom: 0px;
+    }
+    
+    .calculation__sign {
+        width: 1.4vw;
+        height: 1.4vw;
+        top: 13.2vw;
+        right: 34.5vw;
+        background-size: 100%;
+    }
+    
+    .panda__icon__block {
+        width: 28.4vw;
+        height: 24.6vw;
+        top: 0px;
+        right: 0px;
+        background-size: 100%;
+    }
+    
+    .paf__diagram {
+        width: 83vw;
+        height: 11.4vw;
+        top: 46.1vw;
+    }
+    
+    .amount {
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+        width: 5.7vw;
+        height: 2.2vw;
+    }
+    
+    .diagram__line {
+        width: 81vw;
+        height: 4vw;
+        top: 1vw;
+    }
+    
+    .diagram__black__block {
+        height: 2.7vw;
+        border-radius: 0.2vw;
+    }
+    
+    .diagram__black__line {
+        width: 78.5vw;
+        height: 0.2vw;
+    }
+    
+    .prices__container {
+        width: 100%;
+        height: 12.6vw;
+        top: 3.7vw;
+    }
+
+    .price__5000 {
+        display: none;
+    }
+    
+    .price {
+        font-size: 2.6vw;
+        line-height: 3.64vw;
+        width: 6vw;
+        margin-top: 0.2vw;
+        top: -0.1vw;
+    }
+    
+    .donation {
+        font-size: 2.6vw;
+        line-height: 3.64vw;
+        margin-top: 4.5vw;
+    }
+    
+    .price input:checked + label {
+        color: #FE9013;
+      }
+    
+    .price label::before {
+        content: "";
+        position: absolute;
+        width: 6vw;
+        height: 6vw;
+        background-image: url('./../../assets/icons/yellow-radio.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        left: 0.6vw;
+        top: -1.7vw;
+        z-index: 50;
+        cursor: pointer;
+    }
+    
+    .price input:checked + label:before {
+        content: "";
+        position: absolute;
+        width: 6vw;
+        height: 6vw;
+        background: url('./../../assets/icons/roller_icon.svg') no-repeat center;
+        top: -1.5vw;
+        left: 0.2vw;
+        z-index: 50;
+    }
+    
+    .price input {
+        display: none;
+    }
+    
+    .paf__inner__block__lower {
+        height: 25.7vw;
+    }
+    
+    .fields__container {
+        width: 30.1vw;
+    }
+    
+    .paf__amount {
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+        width: 26.8vw;
+        height: 5.4vw;
+        text-indent: 1vw;
+    }
+    
+    .paf__amount::placeholder {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+        color: #929699;
+    }
+    
+    .paf__amount::-webkit-outer-spin-button,
+    .paf__amount::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    
+    .paf__amount[type=number] {
+        -moz-appearance: textfield;
+      } 
+    
+    .paf__radio {
+        width: 21.8vw;
+        height: 2.1vw;
+        margin-top: 0.9vw;
+    }
+    
+    .paf__radio__period {
+        width: 8.4vw;
+        height: 2.5vw;
+    }
+    
+    .radio__text {
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+    }
+    
+    .radio__hole {
+        border-color: #FE9013;
+    }
+    
+    .paf__postcriptum {
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+        width: 30.1vw;
+        height: 2.2vw;
+        margin-bottom: 2vw;
+    }
+
+    footer {
+        width: 100vw;
+        height: 44.3vw;
+    }
+    
+    .footer__container {
+        width: 93.9vw;
+        height: 35.3vw;
+    }
+    
+    .logo__footer {
+        font-size: 1.901vw;
+        line-height: 2.281vw;
+        width: 8.2vw;
+        height: 5.2vw;
+        border: white solid 1px;
+        border-radius: none;
+        background: url('./../../assets/icons/bamboo.svg') no-repeat;
+        background-position: 1.113vw 1.9vw;
+        background-size: 15%;
+        text-align: center;
+    }
+
+    .button5__link {
+        width: 29.8vw;
+        height: 5.4vw;
+        top: 12.1vw;
+        left: 0px;
+    }
+    
+    .social {
+        width: 11.1vw;
+        height: 13.4vw;
+        top: 21.9vw;
+    }
+    
+    .social__block {
+        height: 2.6vw;
+    }
+    
+    .social__ellips {
+        width: 2.6vw;
+        height: 2.6vw;
+    }
+    
+    .social__name {
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+        top: 0.5vw;
+        left: 3.8vw;
+    }
+    
+    .fb__logo {
+        background:  url('./../../assets/icons/fb-logo.svg') no-repeat center;
+    }
+    
+    .tw__logo {
+        background: url('./../../assets/icons/tw-logo.svg') no-repeat center;
+    }
+    
+    .insta__logo {
+        background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/insta-logo.svg') no-repeat center;
+    }
+    
+    .you__logo {
+        background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/you-logo.svg') no-repeat center;
+    }
+
+    .nav__footer {
+        width: 33.2vw;
+        height: 2.2vw;
+        margin: 0px;
+        left: 30.4vw;
+    }
+    
+    .subscribe {
+        width: 36.7vw;
+        height: 8.5vw;
+        right: 3vw;
+    }
+    
+    .subscribe__title {
+        width: 23.7vw;
+        height: 2.9vw;
+    }
+    
+    .subscribe__title__text {
+        font-size: 2.4vw;
+        line-height: 2.9vw;
+    }
+    
+    .submit__block {
+        height: 4.2vw;
+    }
+    
+    .email__input {
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+        width: 22vw;
+        height: 3.8vw;
+        text-indent: 1vw;
+    }
+    
+    .email__input::placeholder {
+        font-size: 1.6vw;
+        line-height: 2.24vw;
+    }
+    
+    .submit__button {
+        font-size: 1.6vw;
+        width: 12.9vw;
+        height: 4.2vw;
+        top: 4.3vw;
+        left: 23.8vw;
+    }
+    
+    .copyright {
+        width: 22.8vw;
+        height: 5.2vw;
+    }
+    
+    .copyright__first {
+        font-size: 1.6vw;
+        line-height: 2.08vw;
+        width: 22vw;
+        height: 2.1vw;
+    }
+    
+    .copyright__second {
+        font-size: 1.6vw;
+        line-height: 2.08vw;
+        width: 22.8vw;
+        height: 2.1vw;
+    }
+}

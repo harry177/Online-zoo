@@ -1,0 +1,1259 @@
+@media (max-width: 640px) and (min-width: 321px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 5.312vw;
+        background-color: black;
+        position: relative;
+        z-index: 50;
+        margin-bottom: -5.312vw;
+    }
+    
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 93.75vw;
+        height: inherit;
+    }
+
+    .logo__nav__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 7.343vw;
+        height: inherit;
+    }
+    
+    .logo {
+        width: 7.343vw;
+        height: 4.531vw;
+        border: none;
+        border-radius: 0.312vw;
+        text-align: center;
+        background: url('./../../assets/icons/bamboo.svg') no-repeat;
+        background-position: 1.718vw 3.381vw;
+    }
+    
+    .petstory {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.92vw;
+        line-height: 2.304vw;
+        color: white;
+        margin: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .nav {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        width: 472px;
+        height: 22px;
+    }
+    
+    .nav__block {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        height: inherit;
+    }
+    
+    .nb1 {
+        width: 6.718vw;
+        margin: 0px;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        cursor: pointer;
+    }
+    
+    .nb2 {
+        width: 5vw;
+        margin: 0px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .nb2:hover {
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .nb3 {
+        width: 5.625vw;
+        margin: 0px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .nb3:hover {
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .nb4 {
+        width: 7.968vw;
+        margin: 0px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .nb4:hover {
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .nb5 {
+        width: 12.187vw;
+        margin: 0px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .nb5:hover {
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .designed {
+        display: none;
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22.4px;
+        color: white;
+        width: 105px;
+        height: 22px;
+    }
+    
+    .designed:hover {
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .burger__menu {
+        display: flex;
+        width: 2.812vw;
+        height: 10px;
+        background: url('./../../assets/icons/burger-menu-line.svg') no-repeat, url('./../../assets/icons/burger-menu-line.svg') no-repeat 0px 4px, url('./../../assets/icons/burger-menu-line.svg') no-repeat 0px 8px;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .section1 {
+        width: 100%;
+        height: 58.281vw;
+        background: url("./../../assets/images/Giant-Panda-tablet.jpg") no-repeat;
+        padding-top: 5.312vw;
+    }
+
+    .ellips {
+        width: 37.125vw;
+        height: 37.125vw;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border-radius: 90%;
+        position: absolute;
+        left: 51.717vw;
+        top: 6.91vw;
+    }
+    
+    .image__motto {
+        width: 39.943vw;
+        height: 31.934vw;
+        font-family: 'Roboto-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 8.503vw;
+        position: absolute;
+        left: 57.545vw;
+        top: 12.818vw;
+        text-align: center;
+        color: white;
+        line-height: 6.376vw;
+        z-index: 5;
+    }
+    
+    .favorite {
+        color: #FFEE2E;
+    }
+    
+    .orange__button {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.5vw;
+        line-height: 140%;
+        width: 46.562vw;
+        height: 8.437vw;
+        color: white;
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        border: none;
+        cursor: pointer;
+    }
+    
+    .orange__button:hover {
+        background: #E47209;
+    }
+    
+    .orange__button:focus {
+        background: #4B9200;
+    }
+    
+    .button1 {
+        left: 3.125vw;
+        top: 43.593vw;
+        border-radius: 3.906vw;
+        position: absolute;
+    }
+    
+    .button2 {
+        left: 26.56vw;
+        top: 265.156vw;
+        border-radius: 3.906vw;
+        position: absolute;
+    }
+    
+    .button3 {
+        left: 26.718vw;
+        bottom: 9.375vw;
+        border-radius: 3.906vw;
+        position: absolute;
+    }
+    
+    .button4 {
+        width: 37.5vw !important;
+        bottom: -1.093vw;
+        border-radius: 0.781vw;
+        position: absolute;
+    }
+    
+    .button5 {
+        border-radius: 0.781vw;
+        top: 6.562vw;
+    }
+
+    .section2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 225.468vw;
+    }
+    
+    .round__button {
+        width: 9.687vw;
+        height: 9.687vw;
+        position: relative;
+        border-radius: 90%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .rb__left {
+        position: absolute;
+        top: 191.093vw;
+        left: 37.812vw;
+        background: orange url('./../../assets/icons/small-arrow-left.svg') no-repeat center;
+        z-index: 10;
+    }
+    
+    .rb__left:focus {
+        background: #4B9200 url('./../../assets/icons/small-arrow-left.svg') no-repeat center;
+    }
+    
+    .rb__right {
+        position: absolute;
+        top: 191.093vw;
+        left: 52.031vw;
+        background: orange url('./../../assets/icons/small-arrow-right.svg') no-repeat center;
+        z-index: 10;
+    }
+    
+    .rb__right:focus {
+        background: #4B9200 url('./../../assets/icons/small-arrow-right.svg') no-repeat center;
+    }
+
+    .flower__one__box {
+        display: initial;
+        width: 36.093vw;
+        height: 74.375vw;
+        top: 58.59vw;
+        right: 0px;
+        position: absolute;
+        overflow: hidden;
+    }
+    
+    .flower__one {
+        width: 36.093vw;
+        height: 74.375vw;
+        display: initial;
+        position: absolute;
+    }
+
+    .flower__two__box {
+        width: 60.312vw;
+        height: 31.56vw;
+        top: 257.812vw;
+        position: absolute;
+        overflow: hidden;
+    }
+    
+    .flower__two {
+        width: 60.312vw;
+        height: 31.562vw;
+        left: -39.218vw;
+        position: absolute;
+    }
+    
+    .flower__three {
+        width: 27.343vw;
+        height: 20.468vw;
+        top: 268.75vw;
+        left: 72.656vw;
+        position: absolute;
+        margin: 0px;
+    }
+    
+    .section2__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 93.75vw;
+        height: 187.968vw;
+        position: relative;
+        top: -14.68vw;
+        margin: 0px;
+    }
+    
+    .backstage {
+        display: flex;
+        justify-content: space-between;
+        width: 77.343vw;
+        height: 57.343vw;
+        position: relative;
+    }
+    
+    .backstage__image {
+        display: none;
+        width: 71.093vw;
+        height: 63.75vw;
+        background: url('./../../assets/images/bamboo-cap-small.jpg') no-repeat;
+    }
+    
+    .backstage__block {
+        width: inherit;
+        height: inherit;
+        position: relative;
+    }
+    
+    .backstage__block__title {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 7.5vw;
+        line-height: 9vw;
+        width: 70.937vw;
+        height: 18.125vw;
+        color: #333B41;
+        position: relative;
+    }
+    
+    .backstage__block__title__text {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        width: 70.937vw;
+        height: 6.56vw;
+        line-height: 3.25vw;
+        color: #333B41;
+        position: relative;
+    }
+    
+    .howitworks__title {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.75vw;
+        width: inherit;
+        height: 4.53vw;
+        color: #333B41;
+        position: relative;
+        margin-top: -0.781vw;
+    }
+    
+    .howitworks__text {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        width: inherit;
+        height: 17.187vw;
+        line-height: 3.5vw;
+        color: #333B41;
+        margin-top: -5.468vw;
+    }
+    
+    .animals {
+        display: grid;
+        grid-template-columns: 44.53vw 44.53vw;
+        grid-template-rows: 51.875vw 51.875vw;
+        column-gap: 4.68vw;
+        row-gap: 14.375vw;
+        width: inherit;
+        height: 125.15vw;
+        position: relative;
+        top: 7.812vw;
+    }
+    
+    .animals__block {
+        width: 44.53vw;
+        height: 51.875vw;
+        position: relative;
+        border-radius: 0.781vw;
+        margin: 0px;
+        overflow: hidden;
+    }
+
+    .ab5 {
+        display: none;
+    }
+
+    .ab6 {
+        display: none;
+    }
+    
+    .animals__block::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        padding: 0.312vw;
+        z-index: 100;
+        border-radius: 0.781vw;
+        background: linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%);
+        -webkit-mask:
+           linear-gradient(#fff 0 0) content-box,
+           linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+                mask-composite: exclude;
+      }
+    
+    .animals__block__picture {
+        width: 44.568vw;
+        height: 44.568vw;
+    }
+    
+    .animals__block:hover .animals__block__picture {
+        transform: scale(1.05);
+        transition: 0.5s ease-in-out;
+    }
+    
+    .slider__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 7.306vw;
+        background: white;
+        position: absolute;
+        bottom: -7.306vw;
+        transition: 0.5s ease-in-out;
+        z-index: 0;
+    }
+    
+    .animals__block:hover .slider__text {
+        bottom: 7.306vw;
+    }
+    
+    .slider__text__name {
+        display: none;
+    }
+
+    .slider__text__name__1000 {
+        display: none;
+    }
+
+    .slider__text__name__640 {
+        display: initial;
+        font-family: 'Roboto-Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        color: black;
+        width: inherit;
+        height: 3.437vw;
+        position: relative;
+        margin: 0px;
+    }
+    
+    .slider__text__place {
+        display: none;
+    }
+
+    .slider__text__place___1000 {
+        display: none;
+    }
+
+    .slider__text__place___640 {
+        display: initial;
+        font-family: 'Roboto-Light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2.343vw;
+        line-height: 2.812vw;
+        color: black;
+        width: inherit;
+        height: 2.812vw;
+        position: relative;
+        margin: 0px;
+    }
+    
+    .animals__block__info {
+        display: flex;
+        justify-content: space-between;
+        width: inherit;
+        height: 7.306vw;
+        z-index: 10;
+        margin-top: -0.781vw;
+        position: relative;
+        background: white;
+    }
+    
+    .animals__block__info__text {
+        width: 34.375vw;
+        height: inherit;
+    }
+    
+    .animals__block__info__text__name {
+        display: none;
+    }
+
+    .text__name__1000 {
+        display: none;
+    }
+
+    .text__name__640 {
+        display: initial;
+        font-family: 'Roboto-Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.948vw;
+        line-height: 2.728vw;
+        color: black;
+        width: inherit;
+        height: 2.656vw;
+        top: 0.937vw;
+        left: 1.948vw;
+        position: relative;
+        margin: 0px;
+    }
+    
+    .animals__block__info__text__place {
+       display: none;
+    }
+
+    .text__place__1000 {
+        display: none;
+    }
+
+    .text__place__640 {
+        display: initial;
+        font-family: 'Roboto-Light';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.826vw;
+        line-height: 2.192vw;
+        color: black;
+        width: inherit;
+        height: 2.187vw;
+        bottom: 1.406vw;
+        left: 1.948vw;
+        position: absolute;
+        margin: 0px;
+    }
+    
+    .animals__block__info__image {
+        width: 8.593vw;
+        height: inherit;
+    
+    }
+    
+    .animals__fruit {
+        width: 7.5vw;
+        height: inherit;
+        background: url('./../../assets/icons/animals-fruit.svg') no-repeat 0.781vw 2.046vw, url('./../../assets/icons/bamboo-green.svg') no-repeat 1.562vw 1.562vw;
+    }
+
+    .animals__fruit__1600 {
+        display: none;
+        
+    }
+    
+    .animals__meat {
+        width: 8.593vw;
+        height: inherit;
+        background: url('./../../assets/icons/fish_icon.svg') no-repeat 1.584vw 3.167vw, url('./../../assets/icons/animals-meat.svg') no-repeat 0.625vw 1.875vw;
+    }
+
+    .animals__meat__1000 {
+        display: flex;
+        width: 8.593vw;
+        height: inherit;
+        background: url('./../../assets/icons/fish_icon.svg') no-repeat 1.584vw 3.167vw, url('./../../assets/icons/animals-meat.svg') no-repeat 0.625vw 1.875vw;
+    }
+
+    .section3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 122.031vw;
+        background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+        opacity: 0.9;
+    }
+    
+    .pick__and__feed {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: inherit;
+        height: 115.781vw;
+        background: rgba(253, 253, 255, 0.52);
+        backdrop-filter: blur(2px);
+        border-radius: 3.125vw;
+        position: relative;
+        top: 0.1px;
+    }
+    
+    .pick__and__feed__inner {
+        width: 93.75vw;
+        height: 104.84vw;
+        position: relative;
+        top: -0.1px;
+    }
+    
+    .paf__title {
+        display: inline-block;
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 6.562vw;
+        line-height: 7.875vw;
+        width: 63.281vw;
+        height: 7.812vw;
+        color: #FE9013;
+        top: 1.562vw;
+        left: 15.312vw;
+        position: relative;
+        margin: 0px;
+    }
+    
+    .paf__title2 {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3.437vw;
+        line-height: 4.125vw;
+        width: 93.75vw;
+        height: 8.125vw;
+        color: #333B41;
+        position: absolute;
+        margin: 0px;
+        left: 0px;
+        word-wrap: break-word;
+    }
+    
+    .paf__text {
+        font-family: 'Roboto-Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.5vw;
+        line-height: 3.25vw;
+        color: #333B41;
+        width: 93.75vw;
+        height: 6.562vw;
+        margin: 0px;
+        left: 0px;
+        margin-top: none;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+    
+    .paf__text2 {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        line-height: 3.25vw;
+        color: #333B41;
+        width: 93.75vw;
+        height: 6.562vw;
+        margin: 0px;
+        left: 0px;
+        margin-top: 4.218vw;
+        word-wrap: break-word;
+    }
+    
+    .emergency {
+        color: #333B41 !important;
+        text-decoration: none;
+    }
+    
+    .emergency:hover {
+        color: #FE9013 !important;
+    }
+    
+    .emergency__line {
+        width: 27.81vw;
+        height: 1px;
+        background: #FE9013;
+        position: absolute;
+        top: 39.843vw;
+        left: 55.781vw;
+    }
+    
+    .paf__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:  center;
+        width: 91.875vw;
+        height: 48.59vw;
+        margin: 0px;
+        margin-left: none;
+        margin-top: none;
+        position: absolute;
+        top: 43.125vw;
+        left: 0px;
+        bottom: 0px;
+    }
+    
+    .paf__block__title {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5.625vw;
+        line-height: 7.312vw;
+        width: 32.656vw;
+        height: 7.343vw;
+        color: #333B41;
+        margin: 0px;
+    }
+    
+    .paf__block__diagram {
+        display: flex;
+        width: 91.875vw;
+        height: 38.125vw;
+    }
+    
+    .paf__image__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 26.25vw;
+        height: 38.125;
+    }
+    
+    .paf__white__square {
+        width: inherit;
+        height: 26.25vw;
+        background: white;
+        border-radius: 0.781vw;
+        border: orange solid 1px;
+    }
+    
+    .pay__icon {
+        background: white url('./../../assets/icons/pay.svg') no-repeat center;
+    }
+    
+    .zoo__icon {
+        background: white url('./../../assets/icons/zoo.svg') no-repeat center;
+    }
+    
+    .monkey__icon {
+        background: white url('./../../assets/icons/monkey.svg') no-repeat center;
+    }
+    
+    .paf__image__text {
+        font-family: 'Roboto-Regular';
+        font-weight: 400;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        width: 26.25vw;
+        height: 7.187vw;
+    }
+    
+    .paf__arrow__block {
+        display: initial;
+        width: 6.562vw;
+        height: 38.125vw;
+        background: none;
+        position: relative;
+    }
+
+    .paf__arrow__block::before {
+        content: "";
+        width: 15.625vw;
+        height: 15.625vw;
+        background: url('./../../assets/icons/green-arrow.svg') no-repeat center;
+        top: -8.125vw;
+        left: -5.468vw;
+        z-index: 30;
+        position: absolute;
+    }
+
+    .section4 {
+        width: 100%;
+        height: 104.687vw;
+    }
+
+    .flower__four__box {
+        width: 23.418vw;
+        height: 22.99vw;
+        bottom: 39.843vw;
+        right: 0px;;
+        position: absolute;
+        overflow: hidden;
+    }
+    
+    .flower__four {
+        width: 28.418vw;
+        height: 27.99vw;
+        right: -11vw;
+        position: absolute;
+    }
+    
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 93.75vw;
+        height: 82.031vw;
+        position: relative;
+    }
+    
+    .testimonials__title {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5.625vw;
+        line-height: 7.312vw;
+        color: #333B41;
+        width: 32.187vw;
+        height: 7.343vw;
+        left: 30.468vw;
+        margin: 0px;
+        margin-top: 1.562vw;
+        position: absolute;
+    }
+    
+    .testimonials__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 93.75vw;
+        height: 55.781vw;
+        top: 14.687vw;
+        position: relative;
+    }
+    
+    .opinion {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 93.75vw;
+        height: 17.031vw;
+        background: #F1F3F2;
+        border-radius: 3.125vw;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        position: relative;
+    }
+    
+    .opinion::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 3.125vw;
+      padding: 0.312vw;
+      background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%),
+      linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+      -webkit-mask:
+         linear-gradient(#fff 0 0) content-box,
+         linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+              mask-composite: exclude;
+    }
+
+    #opinion4 {
+        display: none;
+    }
+    
+    .opinion__header {
+        display: flex;
+        width: 37.031vw;
+        height: 6.25vw;
+        margin-left: 2.343vw;
+    }
+    
+    .opinion__header__icon {
+        width: 6.406vw;
+        height: 6.25vw;
+        margin-right: 0.781vw;
+        border-radius: 90%;
+    }
+    
+    .user__icon1 {
+        background: url('./../../assets/icons/icon-undefined.svg') no-repeat center;
+    }
+    
+    .user__icon2 {
+        background: url('./../../assets/images/icon-oskar.jpg') no-repeat center;
+    }
+    
+    .user__icon3 {
+        background: url('./../../assets/images/icon-fredericka.jpg') no-repeat center;
+    }
+    
+    .user__icon4 {
+        background: url('./../../assets/images/icon-mila.jpg') no-repeat center;
+    }
+    
+    .opinion__header__text {
+        width: 30.625vw;
+        height: 5.781vw;
+    }
+    
+    .opinion__header__text__name {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.5vw;
+        line-height: 3vw;
+        width: inherit;
+        height: 2.968vw;
+        margin: 0px;
+        color: black;
+    }
+    
+    .opinion__header__text__meta {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2.343vw;
+        line-height: 2.812vw;
+        width: inherit;
+        height: 2.812vw;
+        margin: 0px;
+        color: #BDBDBD;
+    }
+    
+    .opinion__body {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2.343vw;
+        line-height: 2.812vw;
+        color: #767474;
+        width: 86.406vw;
+        height: 5.937vw;
+        margin: 0px;
+        overflow: hidden;
+        margin-left: 2.343vw;
+    }
+    
+    .testimonials__slider__bar {
+        display: none;
+        width: 60.937vw;
+        height: 1.25vw;
+        top: 79.062vw;
+        left: 43.75vw;
+        position: absolute;
+        background: #F5F7F6;
+        border-radius: 0.781vw;
+    }
+    
+    .slider__bar__part {
+        width: 11.718vw;
+        height: 0.937vw;
+        border-radius: 0.781vw;
+        cursor: pointer;
+        background: #FE9013;
+    }
+    
+    .slider__bar__part__many {
+        width: 11.718vw;
+        height: 0.937vw;
+        border-radius: 0.781vw;
+        cursor: pointer;
+    }
+    
+    .slider__bar__part__many:hover {
+        background: #FE9013;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 44.06vw;
+        background-color: black;
+        z-index: 20;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 93.75vw;
+        height: 40.312vw;
+        position: relative;
+    }
+    
+    .logo__footer {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.97vw;
+        line-height: 3.828vw;
+        color: white;
+        width: 12.812vw;
+        height: 8.125vw;
+        border: white solid 0.01px;
+        border-radius: 0.312vw;
+        text-align: center;
+        background: url('./../../assets/icons/bamboo.svg') no-repeat;
+        background-position: 1.718vw 3.381vw;
+    }
+
+    .button5__link {
+        display: flex;
+        width: 46.56vw;
+        height: 8.437vw;
+        position: absolute;
+        top: 6.562vw;
+        left: 0px;
+    }
+    
+    .social {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 111px;
+        height: 134px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        top: 219px;
+    }
+    
+    .social__block {
+        width: inherit;
+        height: 26px;
+        cursor: pointer;
+    }
+    
+    .social__block .social__name:hover {
+        background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .social__ellips {
+        width: 4.062vw;
+        height: 4.062vw;
+        border-radius: 50%;
+        margin: 0px;
+        position: relative;
+        background: rgba(196, 196, 196, 0.5);
+    }
+    
+    .social__name {
+        color: white;
+        margin: 0px;
+        top: 0.781vw;
+        left: 5.937vw;
+        position: relative;
+    }
+    
+    .fb__logo {
+        background:  url('./../../assets/icons/fb-logo.svg') no-repeat center;
+        width: inherit;
+        height: inherit;
+        border-radius: 50%;
+    }
+    
+    .tw__logo {
+        background: url('./../../assets/icons/tw-logo.svg') no-repeat center;
+        width: inherit;
+        height: inherit;
+        border-radius: 50%;
+    }
+    
+    .insta__logo {
+        background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/insta-logo.svg') no-repeat center;
+        width: inherit;
+        height: inherit;
+        border-radius: 50%;
+    }
+    
+    .you__logo {
+        background: rgba(196, 196, 196, 0.5) url('./../../assets/icons/you-logo.svg') no-repeat center;
+        width: inherit;
+        height: inherit;
+        border-radius: 50%;
+    }
+    
+    .nav__footer {
+        display: flex;
+        justify-content: space-between;
+        width: 46.718vw;
+        height: 3.437vw;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+    
+    .subscribe {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 367px;
+        height: 85px;
+        position: absolute;
+        right: 0px;
+    }
+    
+    .subscribe__title {
+        width: 237px;
+        height: 29px;
+    }
+    
+    .subscribe__title__text {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: white;
+    }
+    
+    .submit__block {
+        width: inherit;
+        height: 42px;
+    }
+    
+    .email__input {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22.4px;
+        width: 220px;
+        height: 38px;
+        color: white;
+        background: black;
+        text-indent: 10px;
+        border-color: orange;
+    }
+    
+    .email__input:focus {
+        border-color: #4B9200;
+    }
+    
+    
+    .email__input::placeholder {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22.4px;
+        color: white;
+    }
+    
+    .submit__button {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        width: 129px;
+        height: 42px;
+        top: 43px;
+        left: 238px;
+        cursor: pointer;
+    }
+
+    .absolut__social {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 4.062vw;
+        height: 25.625vw;
+        position: absolute;
+        right: 0px;
+    }
+    
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 35.625vw;
+        height: 8.125vw;
+    }
+    
+    .copyright__first {
+        font-family: 'Roboto-Thin';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 2.5vw;
+        line-height: 3.25vw;
+        width: 34.375vw;
+        height: 3.281vw;
+        color: white;
+        margin: 0px;
+    }
+    
+    .copyright__second {
+        font-family: 'Roboto-Thin';
+        font-style: normal;
+        font-weight: 100;
+        font-size: 2.5vw;
+        line-height: 3.25vw;
+        width: 35.625vw;
+        height: 3.281vw;
+        color: white;
+        margin: 0px;
+    }
+}

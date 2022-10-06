@@ -1,4 +1,4 @@
-@media (width: 1000px) {
+@media (max-width: 320px) {
     body {
         margin: 0px;
     }
@@ -15,7 +15,7 @@
         display: flex;
         justify-content: center;
         width: 100%;
-        height: 80px;
+        height: 34px;
         background-color: black;
     }
     
@@ -23,7 +23,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 940px;
+        width: 300px;
         height: inherit;
     }
     
@@ -31,14 +31,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 576px;
+        width: 200px;
         height: inherit;
     }
     
     .logo {
-        width: 82px;
-        height: 52px;
-        border: white solid 1px;
+        width: 47px;
+        height: 29px;
+        border: none;
         border-radius: 2px;
         text-align: center;
         background: url('./../../assets/icons/bamboo.svg') no-repeat;
@@ -49,8 +49,8 @@
         font-family: 'Roboto-Regular';
         font-style: normal;
         font-weight: 400;
-        font-size: 19.01px;
-        line-height: 24.5px;
+        font-size: 12.29px;
+        line-height: 14.75px;
         color: white;
         margin: 0px;
     }
@@ -60,7 +60,7 @@
     }
     
     .nav {
-        display: flex;
+        display: none;
         justify-content: space-between;
         align-items: center;
         width: 431px;
@@ -138,6 +138,7 @@
     }
     
     .designed {
+        display: none;
         font-family: 'Roboto-Regular';
         font-style: normal;
         font-weight: 500;
@@ -154,6 +155,13 @@
         -webkit-text-fill-color: transparent;
     }
 
+    .burger__menu {
+        display: flex;
+        width: 18px;
+        height: 10px;
+        background: url('./../../assets/icons/burger-menu-line.svg') no-repeat, url('./../../assets/icons/burger-menu-line.svg') no-repeat 0px 4px, url('./../../assets/icons/burger-menu-line.svg') no-repeat 0px 8px;
+    }
+
     main {
         width: 100%;
         display: flex;
@@ -163,7 +171,7 @@
     
     .section1 {
         width: 100vw;
-        height: 390px;
+        height: 187px;
         background: url("./../../assets/images/panda\ donate.jpg") no-repeat;
         background-size: cover;
     }
@@ -176,7 +184,7 @@
     
     .button3 {
         border-radius: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 27px;
     }
 
     .button5 {
@@ -186,172 +194,189 @@
 
     .section2 {
         width: 100vw;
-        height: 1333px;
+        height: 1145px;
     }
 
     .section2__container {
-        width: 940px;
+        width: 300px;
     }
 
     .section2__text__block {
-        height: 298px;
-        margin-top: 40px;
+        height: 474px;
+        margin-top: 30px;
     }
     
     .section2__text__title {
-        font-size: 36px;
-        line-height: 46.8px;
-        width: 778px;
-        height: 94px;
+        font-size: 24px;
+        line-height: 28.8px;
+        width: inherit;
+        height: 87px;
     }
     
     .section2__text__text {
         font-size: 16px;
         line-height: 22.4px;
-        width: 939px;
-        height: 94px;
-        top: 30px;
+        width: inherit;
+        height: 308px;
+        top: 20px;
     }
     
     .section2__donation__title {
-        font-size: 36px;
-        line-height: 46.8px;
-        width: 341px;
-        height: 47px;
-        margin-top: 30px;
+        font-size: 24px;
+        line-height: 28.8px;
+        width: 227px;
+        height: 29px;
+        margin-top: 5px;
     }
     
     .pick__and__feed {
-        height: 918px;
-        border-radius: 1.25vw;
-        margin-bottom: 30px;
+        height: 591px;
+        border-radius: 20px;
+        margin-bottom: 20px;
     }
     
     .paf__inner__block {
-        width: 940px;
-        height: 862px;
+        width: inherit;
+        height: 551.02px;
         top: 20px;
     }
 
     .paf__inner__block__upper {
-        height: 90px;
+        height: 83px;
     }
     
     .paf__inner__text__title {
-        font-size: 48px;
-        line-height: 57.6px;
-        width: 463px;
-        height: 58px;
+        font-size: 24px;
+        line-height: 28.8px;
+        width: 232px;
+        height: 29px;
         margin: 0px;
-        margin-right: 10px;
-        margin-top: -10px;
+        margin-right: 2px;
+        margin-top: 5px;
     }
     
     .paf__inner__text__text {
-        font-size: 24px;
-        line-height: 28.8px;
-        width: 849px;
-        height: 29px;
+        font-size: 16px;
+        line-height: 22.4px;
+        width: inherit;
+        height: 44px;
+        text-align: center;
+        margin-top: 10px;
     }
 
     .paf__inner__block__center {
-        height: 458px;
+        height: 210.72px;
+        margin-top: 0px;
     }
     
     .paf__pandas__block {
-        width: 532px;
-        height: 246px;
-        margin-top: 15px;
-        margin-right: 10px;
+        width: inherit;
+        height: 138.72px;
+        margin-top: 0px;
+        margin-right: 0px;
     }
     
     .panda__diet__block {
-        width: 159px;
-        height: 91px;
-        top: 97px;
+        width: 89.66px;
+        height: 51.32px;
+        top: 59.21px;
+        left: 0px;
     }
     
     .panda__diet__block__digit {
-        font-size: 72px;
-        line-height: 57.6px;
-        width: 82px;
-        height: 58px;
-        left: 37px;
+        font-size: 40.6px;
+        line-height: 32.48px;
+        width: 46.24px;
+        height: 32.71px;
+        left: 21.43px;
     }
     
     .panda__diet__block__text {
-        font-size: 16px;
-        line-height: 22.4px;
-        height: 22px;
-        bottom: 0px;
+        font-size: 9.02px;
+        line-height: 12.63px;
+        height: 12.41px;
+        top: 38.91px;
+        bottom: 28.19px;
     }
     
     .calculation__sign {
-        width: 14px;
-        height: 14px;
-        top: 132px;
-        right: 345px;
+        width: 7.89px;
+        height: 7.89px;
+        top: 73.31px;
+        right: 196.24px;
         background-size: 100%;
     }
     
     .panda__icon__block {
-        width: 284px;
-        height: 246px;
+        width: 160.15px;
+        height: 138.72px;
         top: 0px;
         right: 0px;
         background-size: 100%;
     }
     
     .paf__diagram {
-        width: 830px;
-        height: 114px;
+        width: inherit;
+        height: 75px;
+        margin-top: 0px;
+        top: 255px;
     }
     
     .amount {
         font-size: 16px;
         line-height: 22.4px;
-        width: 57px;
+        width: 37px;
         height: 22px;
     }
     
     .diagram__line {
-        width: 810px;
+        width: inherit;
         height: 40px;
-        top: 10px;
+        top: -6px;
     }
     
     .diagram__black__block {
-        height: 27px;
+        height: 13.5px;
         border-radius: 2px;
     }
     
     .diagram__black__line {
-        width: 785px;
+        width: inherit;
         height: 2px;
     }
     
     .prices__container {
-        width: 100%;
-        height: 126px;
-        top: 37px;
+        width: inherit;
+        height: 40px;
+        top: 29px;
+        left: 10px;
     }
 
     .price__5000 {
+        display: none;
+    }
+
+    .price__2000 {
+        display: none;
+    }
+
+    .price__1000 {
         display: none;
     }
     
     .price {
         font-size: 26px;
         line-height: 36.4px;
-        width: 70px;
+        width: 40px;
         margin-top: 2px;
         top: -1px;
     }
     
     .donation {
-        font-size: 26px;
-        line-height: 36.4px;
-        margin-top: 45px;
+        font-size: 13px;
+        line-height: 18.2px;
+        margin-top: 20px;
+        margin-left: -10px;
     }
     
     .price input:checked + label {
@@ -366,8 +391,9 @@
         background-image: url('./../../assets/icons/yellow-radio.svg');
         background-repeat: no-repeat;
         background-position: center;
+        background-size: 37%;
         left: 0.375vw;
-        top: -5px;
+        top: 0px;
         z-index: 50;
         cursor: pointer;
     }
@@ -378,8 +404,9 @@
         width: 40px;
         height: 40px;
         background: url('./../../assets/icons/roller_icon.svg') no-repeat center;
-        top: -5px;
-        left: 2px;
+        background-size: 50%;
+        top: -14px;
+        left: -12px;
         z-index: 50;
     }
     
@@ -388,19 +415,20 @@
     }
     
     .paf__inner__block__lower {
-        height: 257px;
+        height: 222px;
     }
     
     .fields__container {
-        width: 301px;
+        width: inherit;
     }
     
     .paf__amount {
         font-size: 16px;
         line-height: 22.4px;
-        width: 268px;
-        height: 54px;
+        width: 180px;
+        height: 42px;
         text-indent: 10px;
+        margin-top: 5px;
     }
     
     .paf__amount::placeholder {
@@ -425,7 +453,7 @@
     .paf__radio {
         width: 218px;
         height: 21px;
-        margin-top: 9px;
+        margin-top: 20px;
     }
     
     .paf__radio__period {
@@ -447,40 +475,44 @@
         line-height: 22.4px;
         width: 301px;
         height: 22px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
 
     footer {
         width: 100vw;
-        height: 443px;
+        height: 334px;
     }
     
     .footer__container {
-        width: 939px;
-        height: 353px;
+        width: 298px;
+        height: 294px;
+        margin-bottom: 0px;
     }
     
     .logo__footer {
         font-size: 19.01px;
         line-height: 22.82px;
-        width: 82px;
-        height: 52px;
-        border: white solid 1px;
+        width: 128px;
+        height: 23px;
+        border: none;
         border-radius: none;
         background: url('./../../assets/icons/bamboo.svg') no-repeat;
-        background-position: 11.13px 19px;
+        background-position: 66px -15px;
         background-size: 15%;
         text-align: center;
+        top: 0px;
+        margin-left: 96px;
     }
 
     .button5__link {
         width: 298px;
         height: 54px;
-        top: 121px;
+        top: 109px;
         left: 0px;
     }
     
     .social {
+        display: none;
         width: 111px;
         height: 134px;
         top: 219px;
@@ -493,6 +525,7 @@
     .social__ellips {
         width: 26px;
         height: 26px;
+        position: relative;
     }
     
     .social__name {
@@ -517,13 +550,14 @@
     }
 
     .nav__footer {
-        width: 332px;
+        width: 296px;
         height: 22px;
         margin: 0px;
-        left: 304px;
+        left: 0px;
     }
     
     .subscribe {
+        display: none;
         width: 367px;
         height: 85px;
         right: 30px;
@@ -565,12 +599,19 @@
     }
 
     .absolut__social {
-        display: none;;
+        display: flex;
+        justify-content: space-between;
+        width: 194px;
+        height: 26px;
+        position: absolute;
+        top: 53px;
+        right: 52px;
     }
     
     .copyright {
         width: 228px;
         height: 52px;
+        bottom: 52px;
     }
     
     .copyright__first {

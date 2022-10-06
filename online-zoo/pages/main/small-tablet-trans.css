@@ -1,4 +1,4 @@
-@media (max-width: 999px) and (min-width: 641px) {
+@media (max-width: 1000px) and (min-width: 641px) {
     .wrapper {
         width: 100vw;
     }
@@ -148,7 +148,7 @@
         background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
         border-radius: 90%;
         position: absolute;
-        left: 45.5vw;
+        left: 45.6vw;
         top: 6.9vw;
     }
     
@@ -691,7 +691,7 @@
         font-weight: 400;
         font-size: 3.6vw;
         line-height: 4.68vw;
-        width: 2.09vw;
+        width: 20.9vw;
         height: 4.7vw;
         color: #333B41;
         margin: 0px;
@@ -755,18 +755,19 @@
     }
 
     .flower__four__box {
-        bottom: 39.5vw;
+        width: 23.998vw;
+        height: 23.562vw;
+        bottom: 37vw;
         right: 0px;
         position: absolute;
         overflow: hidden;
     }
     
     .flower__four {
-        width: 34vw;
-        height: 34vw;
-        margin: 0px;
-        padding: 0px;
-        right: -13.5vw;
+        width: 23.998vw;
+        height: 23.562vw;
+        right: -8.5vw;
+        position: absolute;
     }
     
     .testimonials {
