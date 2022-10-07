@@ -493,6 +493,7 @@ main {
 .animals__block:hover .animals__block__picture {
     transform: scale(1.05);
     transition: 0.5s ease-in-out;
+    filter: brightness(0.5);
 }
 
 .slider__text {
@@ -529,6 +530,10 @@ main {
     display: none;
 }
 
+.slider__text__name__640 {
+    display: none;
+}
+
 .slider__text__place {
     font-family: 'Roboto-Light';
     font-style: normal;
@@ -543,6 +548,10 @@ main {
 }
 
 .slider__text__place___1000 {
+    display: none;
+}
+
+.slider__text__place___640 {
     display: none;
 }
 

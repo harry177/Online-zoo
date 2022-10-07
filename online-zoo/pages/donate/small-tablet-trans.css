@@ -81,6 +81,7 @@
         height: 39vw;
         background: url("./../../assets/images/panda\ donate.jpg") no-repeat;
         background-size: cover;
+        background-position: -12vw 0px;
     }
     
     .orange__button {

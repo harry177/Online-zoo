@@ -327,6 +327,7 @@
         width: 45.5vw;
         height: 40.8vw;
         background: url('./../../assets/images/bamboo-cap-small.jpg') no-repeat;
+        background-size: 45.5vw 40.8vw;
     }
     
     .backstage__block {
@@ -454,6 +455,10 @@
         display: none;
     }
 
+    .slider__text__name__640 {
+        display: none;
+    }
+
     .slider__text__name__1000 {
         display: initial;
         font-family: 'Roboto-Medium';
@@ -466,9 +471,14 @@
         height: 2.2vw;
         position: relative;
         margin: 0px;
+        left: 1.6vw;
     }
     
     .slider__text__place {
+        display: none;
+    }
+
+    .slider__text__place___640 {
         display: none;
     }
 
@@ -506,6 +516,10 @@
         display: none;
     }
 
+    .text__name__640 {
+        display: none;
+    }
+
     .text__name__1000 {
         display: initial;
         font-family: 'Roboto-Medium';
@@ -524,6 +538,10 @@
     
     .animals__block__info__text__place {
        display: none;
+    }
+
+    .text__place__640 {
+        display: none;
     }
 
     .text__place__1000 {
@@ -721,14 +739,17 @@
     
     .pay__icon {
         background: white url('./../../assets/icons/pay.svg') no-repeat center;
+        background-size: 10.8vw 6vw;
     }
     
     .zoo__icon {
         background: white url('./../../assets/icons/zoo.svg') no-repeat center;
+        background-size: 8.577vw 9.5vw;
     }
     
     .monkey__icon {
         background: white url('./../../assets/icons/monkey.svg') no-repeat center;
+        background-size: 12.475vw 7.16vw;
     }
     
     .paf__image__text {

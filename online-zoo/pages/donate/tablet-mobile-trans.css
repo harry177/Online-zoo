@@ -174,6 +174,7 @@
         height: 52.343vw;
         background: url("./../../assets/images/panda\ donate.jpg") no-repeat;
         background-size: cover;
+        background-position: -42.968vw 0px;
     }
     
     .orange__button {
@@ -280,7 +281,7 @@
     .panda__diet__block {
         width: 24.843vw;
         height: 14.218vw;
-        top: 15.156vw;
+        top: 16.156vw;
     }
     
     .panda__diet__block__digit {
@@ -326,12 +327,14 @@
         line-height: 3.5vw;
         width: 8.906vw;
         height: 3.437vw;
+        margin-top: 1.625vw;
+        margin-left: 1.406vw;
     }
     
     .diagram__line {
         width: inherit;
         height: 6.25vw;
-        top: 1.562vw;
+        top: 0px;
     }
     
     .diagram__black__block {
@@ -447,14 +450,14 @@
       } 
     
     .paf__radio {
-        width: 34.062vw;
-        height: 3.281vw;
+        width: 34vw;
+        height: 21px;
         margin-top: 3.125vw;
     }
     
     .paf__radio__period {
-        width: 16.5vw;
-        height: 3.281vw;
+        width: 84px;
+        height: 3.28px;
     }
     
     .radio__text {

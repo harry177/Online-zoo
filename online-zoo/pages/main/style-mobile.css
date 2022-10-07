@@ -260,7 +260,7 @@
     
     .button5 {
         border-radius: 5px;
-        top: 50px;
+        top: 54px;
     }
 
     .section2 {
@@ -511,6 +511,8 @@
         height: 17px;
         position: relative;
         margin: 0px;
+        top: 2px;
+        left: 12px;
     }
     
     .slider__text__name__1000 {
@@ -532,6 +534,8 @@
         height: 14px;
         position: relative;
         margin: 0px;
+        top: 2px;
+        right: 12px;
     }
     
     .slider__text__place___1000 {
@@ -912,7 +916,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         width: 299px;
         height: 109px;
         background: #F1F3F2;
@@ -942,20 +946,24 @@
     
     .opinion__header {
         display: flex;
+        justify-content: flex-start;
         width: 210px;
         height: 40px;
+        margin-left: 12px;
+        margin-top: 11px;
     }
     
     .opinion__header__icon {
         width: 41px;
         height: 40px;
-        margin-right: none;
+        margin-right: 5px;
         border-radius: 50%;
         z-index: 10;
     }
     
     .user__icon1 {
         background: url('./../../assets/icons/icon-undefined.svg') no-repeat center;
+        z-index: 10;
     }
     
     .user__icon2 {
@@ -971,7 +979,7 @@
     }
     
     .opinion__header__text {
-        width: 252px;
+        width: 169px;
         height: 38px;
     }
     
@@ -984,6 +992,7 @@
         width: inherit;
         height: 19px;
         margin: 0px;
+        margin-left: none;
         color: black;
     }
     
@@ -1010,6 +1019,8 @@
         height: 38px;
         margin: 0px;
         overflow: hidden;
+        margin-left: 18px;
+        margin-bottom: 12px;
     }
     
     .testimonials__slider__bar {
@@ -1084,7 +1095,7 @@
         width: 298px;
         height: 54px;
         position: absolute;
-        top: 50px;
+        top: 54px;
         left: 0px;
     }
     
@@ -1255,7 +1266,7 @@
         height: 49px;
         position: absolute;
         bottom: 52px;
-        right: 0px;
+        right: 10px;
     }
     
     .copyright__first {
