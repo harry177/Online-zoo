@@ -173,6 +173,7 @@
 
     .paf__inner__block__center {
         height: 45.8vw;
+        margin-top: 25px;
     }
     
     .paf__pandas__block {
@@ -185,7 +186,7 @@
     .panda__diet__block {
         width: 15.9vw;
         height: 9.1vw;
-        top: 9.7vw;
+        top: 10.7vw;
     }
     
     .panda__diet__block__digit {
@@ -222,7 +223,8 @@
     .paf__diagram {
         width: 83vw;
         height: 11.4vw;
-        top: 46.1vw;
+        top: 47.1vw;
+        margin-left: 1.4vw;
     }
     
     .amount {

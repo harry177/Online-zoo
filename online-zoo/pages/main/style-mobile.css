@@ -181,8 +181,8 @@
         background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
         border-radius: 90%;
         position: absolute;
-        left: 158.6px;
-        top: 52.17px;
+        left: 164.6px;
+        top: 54.17px;
     }
     
     .image__motto {
@@ -193,8 +193,8 @@
         font-weight: 700;
         font-size: 27.21px;
         position: absolute;
-        left: 173.29px;
-        top: 71.12px;
+        left: 180.29px;
+        top: 77.12px;
         text-align: center;
         color: white;
         line-height: 20.41px;
@@ -244,14 +244,14 @@
     
     .button3 {
         left: 0px;
-        bottom: 40px;
+        bottom: 30px;
         border-radius: 25px;
         position: absolute;
     }
     
     .button4 {
         width: 240px !important;
-        bottom: -7px;
+        bottom: 5px;
         left: 30px;
         border-radius: 5px;
         position: absolute;
@@ -306,7 +306,7 @@
     .flower__one__box {
         width: 105px;
         height: 217px;
-        top: 250px;
+        top: 260px;
         right: 0px;
         position: absolute;
         overflow: hidden;
@@ -315,7 +315,7 @@
     .flower__one {
         width: 105px;
         height: 217px;
-        right: -53px;
+        right: -72px;
         position: absolute;
     }
     
@@ -360,7 +360,7 @@
         justify-content: space-between;
         width: inherit;
         height: 388px;
-        margin-top: 75px;
+        margin-top: 79px;
     }
     
     .backstage__image {
@@ -397,7 +397,7 @@
         line-height: 20.8px;
         color: #333B41;
         margin: 0px;
-        top: 15px;
+        top: 10px;
         position: relative;
     }
     
@@ -411,7 +411,7 @@
         line-height: 28.8px;
         color: #333B41;
         margin: 0px;
-        top: 37px;
+        top: 30px;
         position: relative;
     }
     
@@ -425,7 +425,7 @@
         line-height: 22.4px;
         color: #333B41;
         margin: 0px;
-        top: 50px;
+        top: 43px;
         bottom: none;
         position: relative;
     }
@@ -676,7 +676,7 @@
         width: 232px;
         height: 29px;
         color: #FE9013;
-        top: 0px;
+        top: 10px;
         left: 34px;
         position: relative;
         margin: 0px;
@@ -692,10 +692,10 @@
         width: inherit;
         height: 66px;
         top: 10px;
-        left: 1px;
+        left: 0px;
         position: relative;
         margin: 0px;
-        margin-top: -112px;
+        margin-top: -95px;
         text-align: center;
     }
     
@@ -774,6 +774,7 @@
         height: 29px;
         color: #333B41;
         margin: 0px;
+        margin-top: 10px;
     }
     
     .paf__block__diagram {
@@ -789,7 +790,7 @@
         flex-direction: column;
         justify-content: space-between;
         width: 168px;
-        height: 230px;
+        height: 222px;
     }
     
     .paf__white__square {
@@ -835,7 +836,7 @@
         height: 87.66px;
         background: url('./../../assets/icons/green-arrow-small.svg') no-repeat center;
         top: none;
-        bottom: 480px;
+        bottom: 465px;
         left: none;
         right: -50px;;
         z-index: 30;
@@ -848,7 +849,7 @@
         height: 87.66px;
         background: url('./../../assets/icons/green-arrow-small.svg') no-repeat center;
         top: none;
-        bottom: 230px;
+        bottom: 215px;
         left: none;
         right: -50px;;
         z-index: 30;
@@ -906,10 +907,9 @@
         justify-content: space-around;
         align-items: center;
         width: inherit;
-        height: 391px;
-        top: 20px;
+        height: 357px;
+        top: 45px;
         position: relative;
-        margin-top: 15px;
     }
     
     .opinion {

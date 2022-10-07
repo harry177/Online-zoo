@@ -1187,6 +1187,17 @@ footer {
     cursor: pointer;
 }
 
+.absolut__social {
+    display: none;
+    justify-content: space-between;
+    width: 194px;
+    height: 26px;
+    position: absolute;
+    right: none;
+    top: 53px;
+    left: 53px;
+}
+
 .copyright {
     display: flex;
     flex-direction: column;
