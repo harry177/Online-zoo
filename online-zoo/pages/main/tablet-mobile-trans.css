@@ -308,11 +308,13 @@
         right: 0px;
         position: absolute;
         overflow: hidden;
+        z-index: -1;
     }
     
     .flower__one {
         width: 36.093vw;
         height: 74.375vw;
+        right: -14.53vw;
         display: initial;
         position: absolute;
     }
@@ -406,7 +408,8 @@
         height: 4.53vw;
         color: #333B41;
         position: relative;
-        margin-top: -0.781vw;
+        margin-top: none;
+        top: 8.437vw;
     }
     
     .howitworks__text {
@@ -418,7 +421,10 @@
         height: 17.187vw;
         line-height: 3.5vw;
         color: #333B41;
-        margin-top: -5.468vw;
+        margin-top: none;
+        top: 13.5vw;
+        bottom: none;
+        position: relative;
     }
     
     .animals {
@@ -655,6 +661,8 @@
     }
     
     .pick__and__feed__inner {
+        display: flex;
+        flex-direction: column;
         width: 93.75vw;
         height: 104.84vw;
         position: relative;
@@ -688,6 +696,7 @@
         color: #333B41;
         position: absolute;
         margin: 0px;
+        top: 12.75vw;
         left: 0px;
         word-wrap: break-word;
     }
@@ -702,6 +711,7 @@
         width: 93.75vw;
         height: 6.562vw;
         margin: 0px;
+        top: 23.531vw;
         left: 0px;
         margin-top: none;
         word-wrap: break-word;
@@ -719,7 +729,8 @@
         height: 6.562vw;
         margin: 0px;
         left: 0px;
-        margin-top: 4.218vw;
+        top: 31.775vw;
+        margin-top: none;
         word-wrap: break-word;
     }
     
@@ -737,7 +748,7 @@
         height: 1px;
         background: #FE9013;
         position: absolute;
-        top: 39.843vw;
+        top: 37.843vw;
         left: 55.781vw;
     }
     
@@ -751,8 +762,8 @@
         margin: 0px;
         margin-left: none;
         margin-top: none;
-        position: absolute;
-        top: 43.125vw;
+        position: relative;
+        top: 35.125vw;
         left: 0px;
         bottom: 0px;
     }
@@ -767,6 +778,7 @@
         height: 7.343vw;
         color: #333B41;
         margin: 0px;
+        margin-left: 2vw;
     }
     
     .paf__block__diagram {
@@ -780,7 +792,7 @@
         flex-direction: column;
         justify-content: space-between;
         width: 26.25vw;
-        height: 38.125;
+        height: 38.125vw;
     }
     
     .paf__white__square {
@@ -825,6 +837,7 @@
         width: 15.625vw;
         height: 15.625vw;
         background: url('./../../assets/icons/green-arrow.svg') no-repeat center;
+        background-size: 100%;
         top: -8.125vw;
         left: -5.468vw;
         z-index: 30;
