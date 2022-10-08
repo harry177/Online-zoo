@@ -856,6 +856,8 @@
         display: flex;
         width: 23.7vw;
         height: 4vw;
+        margin-top: -0.5vw;
+        margin-left: -2vw;
     }
     
     .opinion__header__icon {
@@ -917,7 +919,7 @@
         font-size: 1.5vw;
         line-height: 1.8vw;
         color: #767474;
-        width: 23.7vw;
+        width: 25vw;
         height: 30.9vw;
         margin: 0px;
         overflow: hidden;

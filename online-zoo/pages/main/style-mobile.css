@@ -501,6 +501,15 @@
     }
     
     .slider__text__name {
+        display: none;
+    }
+    
+    .slider__text__name__1000 {
+        display: none;
+    }
+
+    .slider__text__name__640 {
+        display: initial;
         font-family: 'Roboto-Medium';
         font-style: normal;
         font-weight: 500;
@@ -515,15 +524,16 @@
         left: 12px;
     }
     
-    .slider__text__name__1000 {
-        display: none;
-    }
-
-    .slider__text__name__640 {
+    .slider__text__place {
         display: none;
     }
     
-    .slider__text__place {
+    .slider__text__place___1000 {
+        display: none;
+    }
+
+    .slider__text__place___640 {
+        display: initial;
         font-family: 'Roboto-Light';
         font-style: normal;
         font-weight: 300;
@@ -536,14 +546,6 @@
         margin: 0px;
         top: 2px;
         right: 12px;
-    }
-    
-    .slider__text__place___1000 {
-        display: none;
-    }
-
-    .slider__text__place___640 {
-        display: none;
     }
     
     .animals__block__info {
@@ -563,6 +565,15 @@
     }
     
     .animals__block__info__text__name {
+        display: none;
+    }
+    
+    .text__name__1000 {
+        display: none;
+    }
+
+    .text__name__640 {
+        display: initial;
         font-family: 'Roboto-Medium';
         font-style: normal;
         font-weight: 500;
@@ -577,15 +588,16 @@
         margin: 0px;
     }
     
-    .text__name__1000 {
-        display: none;
-    }
-
-    .text__name__640 {
+    .animals__block__info__text__place {
         display: none;
     }
     
-    .animals__block__info__text__place {
+    .text__place__1000 {
+        display: none;
+    }
+
+    .text__place__640 {
+        display: initial;
         font-family: 'Roboto-Light';
         font-style: normal;
         font-weight: 300;
@@ -598,14 +610,6 @@
         left: 12px;
         position: absolute;
         margin: 0px;
-    }
-    
-    .text__place__1000 {
-        display: none;
-    }
-
-    .text__place__640 {
-        display: none;
     }
     
     .animals__block__info__image {
@@ -876,7 +880,7 @@
     .flower__four {
         width: 90px;
         height: 95px;
-        right: -35px;
+        right: -40px;
         position: absolute;
     }
     
@@ -1072,22 +1076,18 @@
     }
     
     .logo__footer {
-        font-family: 'Roboto-Regular';
-        font-style: normal;
-        font-weight: 400;
         font-size: 19.01px;
-        line-height: 24.5px;
-        color: white;
+        line-height: 22.82px;
         width: 128px;
         height: 23px;
         border: none;
-        border-radius: 2px;
-        text-align: center;
+        border-radius: none;
         background: url('./../../assets/icons/bamboo.svg') no-repeat;
-        background-position: 11px 21.64px;
+        background-position: 66px -15px;
+        background-size: 15%;
+        text-align: center;
         top: 0px;
-        left: 85px;
-        position: absolute;
+        margin-left: 89px;
     }
     
     .button5__link {
@@ -1171,11 +1171,11 @@
     .nav__footer {
         display: flex;
         justify-content: space-between;
-        width: inherit;
+        width: 278px;
         height: 22px;
         position: absolute;
         bottom: 0px;
-        left: 0px;
+        left: 14px;
     }
     
     .subscribe {
@@ -1265,16 +1265,16 @@
         width: 214px;
         height: 49px;
         position: absolute;
-        bottom: 52px;
-        right: 10px;
+        bottom: 50px;
+        right: -4px;
     }
     
     .copyright__first {
         font-family: 'Roboto-Thin';
         font-style: normal;
         font-weight: 100;
-        font-size: 16px;
-        line-height: 20.8px;
+        font-size: 15px;
+        line-height: 18px;
         width: 220px;
         height: 21px;
         color: white;
@@ -1285,12 +1285,13 @@
         font-family: 'Roboto-Thin';
         font-style: normal;
         font-weight: 100;
-        font-size: 16px;
-        line-height: 20.8px;
+        font-size: 15px;
+        line-height: 18px;
         width: 228px;
         height: 21px;
         color: white;
         margin: 0px;
+        bottom: 0px;
     }
 
 }

@@ -304,7 +304,7 @@
         display: initial;
         width: 36.093vw;
         height: 74.375vw;
-        top: 58.59vw;
+        top: 58vw;
         right: 0px;
         position: absolute;
         overflow: hidden;
@@ -314,7 +314,7 @@
     .flower__one {
         width: 36.093vw;
         height: 74.375vw;
-        right: -14.53vw;
+        right: -15.7vw;
         display: initial;
         position: absolute;
     }
@@ -385,6 +385,7 @@
         height: 18.125vw;
         color: #333B41;
         position: relative;
+        left: 0.4vw;
     }
     
     .backstage__block__title__text {
@@ -410,6 +411,7 @@
         position: relative;
         margin-top: none;
         top: 8.437vw;
+        left: 0.4vw;
     }
     
     .howitworks__text {
@@ -422,7 +424,7 @@
         line-height: 3.5vw;
         color: #333B41;
         margin-top: none;
-        top: 13.5vw;
+        top: 16.7vw;
         bottom: none;
         position: relative;
     }
@@ -859,16 +861,16 @@
     .flower__four__box {
         width: 23.418vw;
         height: 22.99vw;
-        bottom: 39.843vw;
+        bottom: 41.843vw;
         right: 0px;;
         position: absolute;
         overflow: hidden;
     }
     
     .flower__four {
-        width: 28.418vw;
-        height: 27.99vw;
-        right: -11vw;
+        width: 30.418vw;
+        height: 29.99vw;
+        right: -12vw;
         position: absolute;
     }
     
@@ -893,7 +895,7 @@
         height: 7.343vw;
         left: 30.468vw;
         margin: 0px;
-        margin-top: 1.562vw;
+        margin-top: 1vw;
         position: absolute;
     }
     
@@ -903,7 +905,7 @@
         justify-content: space-between;
         width: 93.75vw;
         height: 55.781vw;
-        top: 14.687vw;
+        top: 12.687vw;
         position: relative;
     }
     
@@ -943,7 +945,8 @@
         display: flex;
         width: 37.031vw;
         height: 6.25vw;
-        margin-left: 2.343vw;
+        margin-left: 1.943vw;
+        margin-top: 1.5vw;
     }
     
     .opinion__header__icon {
@@ -1009,7 +1012,7 @@
         height: 5.937vw;
         margin: 0px;
         overflow: hidden;
-        margin-left: 2.343vw;
+        margin-left: 2.4vw;
     }
     
     .testimonials__slider__bar {
@@ -1243,6 +1246,8 @@
         height: 25.625vw;
         position: absolute;
         right: 0px;
+        top: 0px;
+        left: 89.687vw;
     }
     
     .copyright {
