@@ -450,15 +450,42 @@ main {
     position: absolute;
 }
 
-.animals {
+.animals__container {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 3480px;
+    left: -1160px;
+    position: relative;
+}
+
+.animals__left {
     display: grid;
     grid-template-columns: 366px 366px 366px;
     grid-template-rows: 426px 426px;
     column-gap: 30px;
     row-gap: 20px;
-    width: inherit;
+    width: 1160px;
     height: 872px;
+}
 
+.animals__center {
+    display: grid;
+    grid-template-columns: 366px 366px 366px;
+    grid-template-rows: 426px 426px;
+    column-gap: 30px;
+    row-gap: 20px;
+    width: 1160px;
+    height: 872px;
+}
+
+.animals__right {
+    display: grid;
+    grid-template-columns: 366px 366px 366px;
+    grid-template-rows: 426px 426px;
+    column-gap: 30px;
+    row-gap: 20px;
+    width: 1160px;
+    height: 872px;
 }
 
 .animals__block {
@@ -483,7 +510,63 @@ main {
        linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
             mask-composite: exclude;
-  }
+}
+
+.ab__panda {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    border-radius: inherit;
+    margin: 0px;
+}
+
+.ab__eagle {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    border-radius: inherit;
+    margin: 0px;
+}
+
+.ab__gorilla {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    border-radius: inherit;
+    margin: 0px;
+}
+
+.ab__sloth {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    border-radius: inherit;
+    margin: 0px;
+}
+
+.ab__cheetah {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    border-radius: inherit;
+    margin: 0px;
+}
+
+.ab__penguin {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    border-radius: inherit;
+    margin: 0px;
+}
+
+.ab__alligator {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    border-radius: inherit;
+    margin: 0px;
+}
 
 .animals__block__picture {
     width: 366px;
@@ -590,6 +673,10 @@ main {
     display: none;
 }
 
+.text__name__640 {
+    display: none;
+}
+
 .animals__block__info__text__place {
     font-family: 'Roboto-Light';
     font-style: normal;
@@ -609,10 +696,13 @@ main {
     display: none;
 }
 
+.text__place__640 {
+    display: none;
+}
+
 .animals__block__info__image {
     width: 48px;
     height: inherit;
-
 }
 
 .animals__fruit {
@@ -1233,7 +1323,22 @@ footer {
     margin: 0px;
 }
 
-    /* for Part3 */
+@media (max-width: 2000px) {
+    .button2 {
+        left: 41.625vw;
+        position: absolute;
+    }
+}
+
+
+
+
+    /*!!!!!!!!!!!!!!! for Part3 !!!!!!!!!!!!!!!!!!*/
+
+
+
+    /* Burger-menu */
+
 
 .burger__menu__active {
     display: none;
@@ -1244,15 +1349,65 @@ footer {
     background-color: #FFF;
     z-index: 300;
     transition: .5s ease-in-out;
-  } 
-    
+  }
 
 
+    /* Slider animals */
 
 
-@media (max-width: 2000px) {
-    .button2 {
-        left: 41.625vw;
-        position: absolute;
-    }
+@keyframes move-left {
+    from {left: -100%;}
+    to {left: 0px;}
 }
+
+.transition-left {
+  animation-name: move-left;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes move-right {
+    from {left: -100%;}
+    to {left: -200%;}
+  }
+  
+  .transition-right {
+    animation-name: move-right;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+  }
+
+  .animal__wrapper {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 366px;
+    height: 426px;
+    border-radius: 5px;
+    background-color: #FFF;
+    margin-bottom: 20px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .animal__wrapper:hover {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    z-index: 100;
+    border-radius: 5px;
+    background: linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%);
+    -webkit-mask:
+       linear-gradient(#fff 0 0) content-box,
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+  }
+
+  .hidden__container {
+    overflow: hidden;
+    width: 1160px;
+    height: 872px;
+    margin-bottom: 20px;
+  }
