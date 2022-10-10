@@ -708,5 +708,18 @@
         width: 14.25vw;
         height: 1.31vw;
     }
+
+    /* for Part3 */
+
+.burger__menu__active {
+    display: none;
+    position: fixed;
+    width: 100%;
+    left: 100%;
+    padding: 10px 10px 22px;
+    background-color: #FFF;
+    z-index: 300;
+    transition: .5s ease-in-out;
+  } 
     
 }

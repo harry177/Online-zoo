@@ -154,6 +154,10 @@
         -webkit-text-fill-color: transparent;
     }
 
+    .figma__link {
+        display: none;
+    }
+
     .burger__menu {
         display: flex;
         width: 18px;
@@ -232,7 +236,7 @@
         top: 241px;
         border-radius: 25px;
         position: absolute;
-        z-index: 50;
+        z-index: 1;
     }
     
     .button2 {
@@ -255,7 +259,7 @@
         left: 30px;
         border-radius: 5px;
         position: absolute;
-        z-index: 50;
+        z-index: 1;
     }
     
     .button5 {
@@ -1292,6 +1296,96 @@
         color: white;
         margin: 0px;
         bottom: 0px;
+    }
+
+    /* for Part3 */
+
+    .burger__menu__active {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        left: 100%;
+        height: 297px;
+        padding: 10px 10px 22px;
+        background-color: white;
+        z-index: 1000;
+        transition: .5s ease-in-out;
+      }
+    
+    .show {
+        left: 0;
+    }
+    
+    .dark {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        transition: .5s ease-in-out;
+      }
+      
+    .dark__active {
+        z-index: 500;
+        background: rgba(0, 0, 0, .5);
+    }
+    
+    .burger__menu__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 104px;
+        height: 320px;
+        position: relative;
+    }
+    
+    .logo__burger {
+        width: 65.6px;
+        height: 41.6px;
+        border: #FE9013 0.8px solid;
+        border-radius: 2px;
+        text-align: center;
+        background: url('./../../assets/icons/bamboo-orange.svg') no-repeat;
+        background-position: 8px 17px;
+    }
+    
+    .petstory__burger {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15.21px;
+        line-height: 18.25px;
+        text-align: center center;
+        color: #FE9013;
+        margin: 0px;
+    }
+    
+    .nav__burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 207px;
+        margin-bottom: 42px;
+    }
+    
+    .nav__block__burger {
+        font-family: 'Roboto-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22.4px;
+        width: inherit;
+        height: 22px;
+        z-index: 1000;
+        color: #333B41;
+        margin: 0px;
+    }
+    
+    .cross__burger__button {
+        width: 14px;
+        height: 14px;
+        background: url('./../../assets/icons/x-icon-orange.svg');
+        margin-right: 20px;
     }
 
 }

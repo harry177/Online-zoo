@@ -1233,6 +1233,20 @@ footer {
     margin: 0px;
 }
 
+    /* for Part3 */
+
+.burger__menu__active {
+    display: none;
+    position: fixed;
+    width: 100%;
+    left: 100%;
+    padding: 10px 10px 22px;
+    background-color: #FFF;
+    z-index: 300;
+    transition: .5s ease-in-out;
+  } 
+    
+
 
 
 
