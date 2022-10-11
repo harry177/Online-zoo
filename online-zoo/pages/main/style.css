@@ -455,6 +455,7 @@ main {
     flex-wrap: nowrap;
     width: 3480px;
     left: -1160px;
+    height: 872px;
     position: relative;
 }
 
@@ -502,7 +503,7 @@ main {
     position: absolute;
     inset: 0;
     padding: 2px;
-    z-index: 100;
+    z-index: 200;
     border-radius: 5px;
     background: linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%);
     -webkit-mask:
@@ -1384,10 +1385,12 @@ footer {
     width: 366px;
     height: 426px;
     border-radius: 5px;
+    border: #F9804B 2px solid;
     background-color: #FFF;
     margin-bottom: 20px;
     overflow: hidden;
     cursor: pointer;
+    z-index: 50;
   }
 
   .animal__wrapper:hover {

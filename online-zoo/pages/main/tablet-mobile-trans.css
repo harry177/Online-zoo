@@ -285,7 +285,7 @@
         top: 191.093vw;
         left: 37.812vw;
         background: orange url('./../../assets/icons/small-arrow-left.svg') no-repeat center;
-        z-index: 10;
+        z-index: 70;
     }
     
     .rb__left:focus {
@@ -297,7 +297,7 @@
         top: 191.093vw;
         left: 52.031vw;
         background: orange url('./../../assets/icons/small-arrow-right.svg') no-repeat center;
-        z-index: 10;
+        z-index: 70;
     }
     
     .rb__right:focus {
@@ -431,6 +431,45 @@
         top: 16.7vw;
         bottom: none;
         position: relative;
+    }
+
+    .animals__container {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 281.25vw;
+        left: -93.75vw;
+        height: 125.15vw;
+        position: relative;
+    }
+    
+    .animals__left {
+        display: grid;
+        grid-template-columns: 44.53vw 44.53vw;
+        grid-template-rows: 51.875vw 51.875vw;
+        column-gap: 4.68vw;
+        row-gap: 14.375vw;
+        width: 93.75vw;
+        height: 125.15vw;
+    }
+    
+    .animals__center {
+        display: grid;
+        grid-template-columns: 44.53vw 44.53vw;
+        grid-template-rows: 51.875vw 51.875vw;
+        column-gap: 4.68vw;
+        row-gap: 14.375vw;
+        width: 93.75vw;
+        height: 125.15vw;
+    }
+    
+    .animals__right {
+        display: grid;
+        grid-template-columns: 44.53vw 44.53vw;
+        grid-template-rows: 51.875vw 51.875vw;
+        column-gap: 4.68vw;
+        row-gap: 14.375vw;
+        width: 93.75vw;
+        height: 125.15vw;
     }
     
     .animals {
@@ -1375,5 +1414,70 @@
     background: url('./../../assets/icons/x-icon-orange.svg');
     margin-right: 20px;
 }
+
+/* Slider animals */
+
+
+@keyframes move-left {
+    from {left: -100%;}
+    to {left: 0px;}
+}
+
+.transition-left {
+  animation-name: move-left;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes move-right {
+    from {left: -100%;}
+    to {left: -200%;}
+  }
+  
+  .transition-right {
+    animation-name: move-right;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+  }
+
+  .animal__wrapper {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 44.53vw;
+    height: 51.875vw;
+    border-radius: 0.781vw;
+    border: #F9804B 0.312vw solid;
+    background-color: #FFF;
+    margin-bottom: 3.125vw;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 50;
+  }
+
+  .animal__wrapper:hover {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 0.312vw;
+    z-index: 100;
+    border-radius: 0.781vw;
+    background: linear-gradient(113.96deg, #FA6F32 1.49%, #FE9013 101.44%);
+    -webkit-mask:
+       linear-gradient(#fff 0 0) content-box,
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+  }
+
+  .hidden__container {
+    overflow: hidden;
+    width: 93.75vw;
+    height: 125.15vw;
+    margin-bottom: none;
+    margin-top: none;
+    position: relative;
+    top: 9.2vw;
+  }
 
 }

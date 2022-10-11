@@ -1,3 +1,7 @@
+alert ('Слайдер по тестимониалс еще не сделал, сделаю в ближайший день:)')
+
+
+
 /* Burger-menu */
 
 
@@ -41,8 +45,10 @@ const blockPenguin = document.getElementById("ab__penguin");
 const blockAlligator = document.getElementById("ab__alligator");
 
 
-let blocks = [blockPanda, blockEagle, blockGorilla, blockSloth, blockCheetah, blockPenguin]
+let blocks = [blockPanda, blockEagle, blockGorilla, blockSloth, blockCheetah, blockPenguin];
+let blocks640 = []
 
+const media640 = window.matchMedia('(max-width: 640px) and (min-width: 321px)');
 
 function mix(arr) {
     arr.sort(() => Math.random() - 0.5);
@@ -55,6 +61,19 @@ function setSlider() {
   leftPart.innerHTML = "";
   rightPart.innerHTML = "";
 
+  if (media640 == true) {
+  for (let i = 0; i < 4; i++) {
+    const leftBlock = document.createElement('div');
+    leftBlock.classList.add("animal__wrapper");
+    leftBlock.innerHTML = blocks[i].innerHTML;
+    leftPart.append(leftBlock);
+
+    const rightBlock = document.createElement('div');
+    rightBlock.classList.add("animal__wrapper");
+    rightBlock.innerHTML = blocks[i].innerHTML;
+    rightPart.append(rightBlock);
+  }
+} else {
   for (let i = 0; i < 6; i++) {
     const leftBlock = document.createElement('div');
     leftBlock.classList.add("animal__wrapper");
@@ -66,6 +85,7 @@ function setSlider() {
     rightBlock.innerHTML = blocks[i].innerHTML;
     rightPart.append(rightBlock);
   }
+}
 };
 
 window.addEventListener('load', setSlider());
@@ -102,4 +122,11 @@ const moveRight = () => {
     rbLeft.addEventListener("click", moveLeft);
     rbRight.addEventListener("click", moveRight);
     setSlider();
-  })
+  });
+
+
+
+  /* Testimonials - slider */
+
+
+  
