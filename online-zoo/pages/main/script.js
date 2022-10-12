@@ -1,4 +1,3 @@
-alert ('Доделываю попап для отзывов)')
 
 
 /* Burger-menu */
@@ -57,13 +56,13 @@ function mix(arr) {
   }
 
 
-function setSlider() {
+function sliderAnimal() {
   mix(blocks);
 
   leftPart.innerHTML = "";
   rightPart.innerHTML = "";
 
-
+if (!(mediaMobile.matches)) {
   for (let i = 0; i < 6; i++) {
     const leftBlock = document.createElement('div');
     leftBlock.classList.add("animals__block");
@@ -75,9 +74,9 @@ function setSlider() {
     rightBlock.innerHTML = blocks[i].innerHTML;
     rightPart.append(rightBlock);
   }
-};
+}};
 
-window.addEventListener('load', setSlider());
+window.addEventListener('load', sliderAnimal());
 
 const moveLeft = () => {
     carousel.classList.add("transition-left");
@@ -110,7 +109,7 @@ const moveRight = () => {
   
     rbLeft.addEventListener("click", moveLeft);
     rbRight.addEventListener("click", moveRight);
-    setSlider();
+    sliderAnimal();
   });
 
 
@@ -229,29 +228,104 @@ const popContent = document.querySelector(".test__popup__inner");
 const popButton = document.querySelector(".cross__popup__button");
 const hhh = document.querySelectorAll(".opinion__body");
 
+if (mediaTablet.matches) {
 
 popup1.addEventListener('click', function() {
   hhh[0].style.height = "79%";
-  testPopup.style.left = "160px";
+  darkTheme.classList.add("myst__active");
+  testPopup.style.left = "25vw";
+  popup1.style.zIndex = "1";
+  popup2.style.zIndex = "1";
+  popup3.style.zIndex = "1";
   popContent.innerHTML = popup1.innerHTML;
   
 });
 
 popup2.addEventListener('click', function() {
   hhh[1].style.height = "78%";
-  testPopup.style.left = "160px";
+  darkTheme.classList.add("myst__active");
+  testPopup.style.left = "25vw";
+  popup1.style.zIndex = "1";
+  popup2.style.zIndex = "1";
+  popup3.style.zIndex = "1";
   popContent.innerHTML = popup2.innerHTML;
   
 });
 
 popup3.addEventListener('click', function() {
   hhh[2].style.height = "78%";
-  testPopup.style.left = "160px";
+  darkTheme.classList.add("myst__active");
+  testPopup.style.left = "25vw";
+  popup1.style.zIndex = "1";
+  popup2.style.zIndex = "1";
+  popup3.style.zIndex = "1";
   popContent.innerHTML = popup3.innerHTML;
   
 });
 
 popButton.addEventListener('click', function() {
-  testPopup.style.left = "-320px";
-  
+  testPopup.style.left = "-50vw";
+  popup1.style.zIndex = "200";
+  popup2.style.zIndex = "200";
+  popup3.style.zIndex = "200";
+  darkTheme.classList.remove("myst__active");
 })
+
+darkTheme.addEventListener('click', function() {
+  testPopup.style.left = "-50vw";
+  popup1.style.zIndex = "200";
+  popup2.style.zIndex = "200";
+  popup3.style.zIndex = "200";
+  darkTheme.classList.remove("myst__active");
+})} 
+
+else {
+  popup1.addEventListener('click', function() {
+    hhh[0].style.height = "79%";
+    darkTheme.classList.add("myst__active");
+    testPopup.style.left = "0px";
+    popup1.style.zIndex = "1";
+    popup2.style.zIndex = "1";
+    popup3.style.zIndex = "1";
+    popContent.innerHTML = popup1.innerHTML;
+    
+  });
+  
+  popup2.addEventListener('click', function() {
+    hhh[1].style.height = "78%";
+    darkTheme.classList.add("myst__active");
+    testPopup.style.left = "0px";
+    popup1.style.zIndex = "1";
+    popup2.style.zIndex = "1";
+    popup3.style.zIndex = "1";
+    popContent.innerHTML = popup2.innerHTML;
+    
+  });
+  
+  popup3.addEventListener('click', function() {
+    hhh[2].style.height = "78%";
+    darkTheme.classList.add("myst__active");
+    testPopup.style.left = "0px";
+    popup1.style.zIndex = "1";
+    popup2.style.zIndex = "1";
+    popup3.style.zIndex = "1";
+    popContent.innerHTML = popup3.innerHTML;
+    
+  });
+  
+  popButton.addEventListener('click', function() {
+    testPopup.style.left = "-320px";
+    popup1.style.zIndex = "200";
+    popup2.style.zIndex = "200";
+    popup3.style.zIndex = "200";
+    darkTheme.classList.remove("myst__active");
+  })
+  
+  darkTheme.addEventListener('click', function() {
+    testPopup.style.left = "-320px";
+    popup1.style.zIndex = "200";
+    popup2.style.zIndex = "200";
+    popup3.style.zIndex = "200";
+    darkTheme.classList.remove("myst__active");
+  })} 
+;
