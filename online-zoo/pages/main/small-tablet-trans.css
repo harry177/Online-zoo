@@ -520,11 +520,11 @@
         display: none;
     }
 
-    .slider__text__place___640 {
+    .slider__text__place__640 {
         display: none;
     }
 
-    .slider__text__place___1000 {
+    .slider__text__place__1000 {
         display: initial;
         font-family: 'Roboto-Light';
         font-style: normal;
@@ -856,9 +856,10 @@
     .testimonials__block {
         display: flex;
         justify-content: space-between;
-        width: inherit;
+        width: 320vw;
         height: 39.1vw;
-        top: 7.7vw;
+        top: 0vw;
+        transition: ease-in-out 0.5s;
         position: relative;
     }
     
@@ -971,7 +972,7 @@
         display: flex;
         width: 39vw;
         height: 0.8vw;
-        top: 48.8vw;
+        top: 50.8vw;
         left: 28vw;
         position: absolute;
         background: #F5F7F6;
@@ -1298,6 +1299,18 @@
     height: 80.1vw;
     margin-bottom: 2vw;
   }
+
+  /* Testimonials - slider */
+
+
+  .testimonials__hidden {
+    overflow: hidden;
+    width: 94vw;
+    height: 46.8vw;
+    top: 9.4vw;
+    position: relative;
+  }
+
 
     
 }

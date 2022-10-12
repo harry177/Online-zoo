@@ -287,7 +287,7 @@
         border-radius: 0.312vw;
       }
 
-      .animals__block__picture {
+    .animals__block__picture {
         width: 22.87vw;
         height: 22.87vw;
     }
@@ -326,7 +326,7 @@
         display: none;
     }
 
-    .slider__text__place___640 {
+    .slider__text__place__640 {
         display: none;
     }
 
@@ -533,8 +533,9 @@
     }
     
     .testimonials__block {
-        height: 24.43vw;
-        top: 5.875vw;
+        width: 202.875vw;
+        height: 24.437vw;
+        left: 0px;
     }
     
     .opinion {
@@ -607,6 +608,17 @@
         left: 17.5vw;
         border-radius: 0.312vw;
     }
+
+    .testimonials__slider__bar::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 12.5%;
+        height: 0.5vw;
+        margin: 0.625vw 0;
+        border-radius: 5px;
+        background-color: #FE9013;
+        cursor: pointer;
+      }
     
     .slider__bar__part {
         width: 7.199vw;
@@ -822,6 +834,16 @@
     width: 72.5vw;
     height: 54.5vw;
     margin-bottom: 1.25vw;
+  }
+
+  /* Testimonials - slider */
+
+
+  .testimonials__hidden {
+    overflow: hidden;
+    width: 72.5vw;
+    height: 24.437vw;
+    top: 5.875vw;
   }
     
 }

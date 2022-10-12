@@ -1,6 +1,4 @@
-alert ('Слайдер по тестимониалс еще не сделал, сделаю в ближайший день:)')
-
-
+alert ('Привет! :) Еще не доделал попап по отзывам - скоро доделаю)')
 
 /* Burger-menu */
 
@@ -48,7 +46,10 @@ const blockAlligator = document.getElementById("ab__alligator");
 let blocks = [blockPanda, blockEagle, blockGorilla, blockSloth, blockCheetah, blockPenguin];
 let blocks640 = []
 
-const media640 = window.matchMedia('(max-width: 640px) and (min-width: 321px)');
+const mediaDesktopBig = window.matchMedia('(min-width: 1001px)');
+const mediaDesktopSmall = window.matchMedia('(max-width: 1000px) and (min-width: 641px)');
+const mediaTablet = window.matchMedia('(max-width: 640px) and (min-width: 321px)');
+const mediaMobile = window.matchMedia('(max-width: 320px)');
 
 function mix(arr) {
     arr.sort(() => Math.random() - 0.5);
@@ -61,31 +62,18 @@ function setSlider() {
   leftPart.innerHTML = "";
   rightPart.innerHTML = "";
 
-  if (media640 == true) {
-  for (let i = 0; i < 4; i++) {
-    const leftBlock = document.createElement('div');
-    leftBlock.classList.add("animal__wrapper");
-    leftBlock.innerHTML = blocks[i].innerHTML;
-    leftPart.append(leftBlock);
 
-    const rightBlock = document.createElement('div');
-    rightBlock.classList.add("animal__wrapper");
-    rightBlock.innerHTML = blocks[i].innerHTML;
-    rightPart.append(rightBlock);
-  }
-} else {
   for (let i = 0; i < 6; i++) {
     const leftBlock = document.createElement('div');
-    leftBlock.classList.add("animal__wrapper");
+    leftBlock.classList.add("animals__block");
     leftBlock.innerHTML = blocks[i].innerHTML;
     leftPart.append(leftBlock);
 
     const rightBlock = document.createElement('div');
-    rightBlock.classList.add("animal__wrapper");
+    rightBlock.classList.add("animals__block");
     rightBlock.innerHTML = blocks[i].innerHTML;
     rightPart.append(rightBlock);
   }
-}
 };
 
 window.addEventListener('load', setSlider());
@@ -129,4 +117,102 @@ const moveRight = () => {
   /* Testimonials - slider */
 
 
+  const testimonials = document.querySelector(".testimonials__block");
+  const test1 = document.getElementById("opinion1");
+  const test2 = document.getElementById("opinion2");
+  const test3 = document.getElementById("opinion3");
+  const test4 = document.getElementById("opinion4");
+  const test5 = document.getElementById("opinion5");
+  const test6 = document.getElementById("opinion6");
+  const test7 = document.getElementById("opinion7");
+  const test8 = document.getElementById("opinion8");
+  const test9 = document.getElementById("opinion9");
+  const test10 = document.getElementById("opinion10");
+  const test11 = document.getElementById("opinion11");
+
+  const tests = [test1, test2, test3, test4, test5, test6, test7, test8, test9, test10, test11];
+  const contents = [content1, content2, content3, content4, content5, content6, content7, content8, content9, content10, content11];
+
+
   
+  function mixOpinions() {
+    mix(tests);
+
+    if (mediaDesktopBig.matches) {
+      for (i = 0; i < 11; i++) {
+        tests[i].innerHTML = contents[i];
+      }
+    } else if  (mediaDesktopSmall.matches) {
+      for (i = 0; i < 11; i++) {
+        tests[i].innerHTML = contents[i];
+      }
+    }
+  }
+
+  window.addEventListener('load', mixOpinions());
+
+  
+  /* Testimonials progress bar */
+
+
+  const progress = document.querySelector(".testimonials__slider__bar");
+
+function moveOpinions() {
+  if (mediaDesktopBig.matches) {
+    switch (progress.value) {
+      case "0":
+        testimonials.style.left = "0";
+        break;
+      case "1":
+        testimonials.style.left = "-18.625vw";
+        break;
+      case "2":
+        testimonials.style.left = "-37.25vw";
+        break;
+      case "3":
+        testimonials.style.left = "-55.875vw";
+        break;
+      case "4":
+        testimonials.style.left = "-74.5vw";
+        break;
+      case "5":
+        testimonials.style.left = "-93.125vw";
+        break;
+      case "6":
+        testimonials.style.left = "-111.75vw";
+        break;
+      case "7":
+        testimonials.style.left = "-130.375vw";
+        break;
+    }
+  } else {
+    switch (progress.value) {
+      case "0":
+        testimonials.style.left = "0";
+        break;
+      case "1":
+        testimonials.style.left = "-32.4vw";
+        break;
+      case "2":
+        testimonials.style.left = "-64.8vw";
+        break;
+      case "3":
+        testimonials.style.left = "-97.2vw";
+        break;
+      case "4":
+        testimonials.style.left = "-129.6vw";
+        break;
+      case "5":
+        testimonials.style.left = "-162vw";
+        break;
+      case "6":
+        testimonials.style.left = "-194.4vw";
+        break;
+      case "7":
+        testimonials.style.left = "-226.8vw";
+        break;
+    }
+  }
+}
+
+progress.addEventListener("input", moveOpinions);
