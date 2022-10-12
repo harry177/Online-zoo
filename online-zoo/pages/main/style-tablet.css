@@ -922,7 +922,7 @@
     
     .opinion__header {
         display: flex;
-        width: 237px;
+        width: inherit;
         height: 40px;
         margin-left: 15px;
     }

@@ -1,4 +1,3 @@
-alert ('Привет! :) Еще не доделал попап по отзывам - скоро доделаю)')
 
 /* Burger-menu */
 
@@ -185,7 +184,7 @@ function moveOpinions() {
         testimonials.style.left = "-130.375vw";
         break;
     }
-  } else {
+  } else if (mediaDesktopSmall.matches) {
     switch (progress.value) {
       case "0":
         testimonials.style.left = "0";
@@ -216,3 +215,41 @@ function moveOpinions() {
 }
 
 progress.addEventListener("input", moveOpinions);
+
+
+/* Testimonial popup */
+
+const popup1 = document.getElementById("opinion1");
+const popup2 = document.getElementById("opinion2");
+const popup3 = document.getElementById("opinion3");
+const testPopup = document.querySelector(".test__popup");
+const popContent = document.querySelector(".test__popup__inner");
+const popButton = document.querySelector(".cross__popup__button");
+const hhh = document.querySelectorAll(".opinion__body");
+
+
+popup1.addEventListener('click', function() {
+  hhh[0].style.height = "79%";
+  testPopup.style.left = "160px";
+  popContent.innerHTML = popup1.innerHTML;
+  
+});
+
+popup2.addEventListener('click', function() {
+  hhh[1].style.height = "78%";
+  testPopup.style.left = "160px";
+  popContent.innerHTML = popup2.innerHTML;
+  
+});
+
+popup3.addEventListener('click', function() {
+  hhh[2].style.height = "78%";
+  testPopup.style.left = "160px";
+  popContent.innerHTML = popup3.innerHTML;
+  
+});
+
+popButton.addEventListener('click', function() {
+  testPopup.style.left = "-320px";
+  
+})

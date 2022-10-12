@@ -1104,6 +1104,10 @@ main {
     background: #FE9013;
 }
 
+.test__popup {
+    display: none;
+}
+
 footer {
     display: flex;
     justify-content: center;

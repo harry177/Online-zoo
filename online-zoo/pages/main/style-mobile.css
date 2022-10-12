@@ -916,7 +916,7 @@
         align-items: center;
         width: inherit;
         height: 357px;
-        top: 45px;
+        top: none;
         position: relative;
     }
     
@@ -948,7 +948,7 @@
               mask-composite: exclude;
     }
 
-    #opinion4 {
+    #opinion4, #opinion5, #opinion6, #opinion7, #opinion8, #opinion9, #opinion10, #opinion11 {
         display: none;
     }
     
@@ -1387,5 +1387,27 @@
         background: url('./../../assets/icons/x-icon-orange.svg');
         margin-right: 20px;
     }
+
+
+    /* Slider animals */
+
+
+    .hidden__container {
+        overflow: hidden;
+        width: 285.24px;
+        height: 1388px;
+        margin-bottom: 20px;
+      }
+
+      /* Testimonials - slider */
+
+
+  .testimonials__hidden {
+    overflow: hidden;
+    width: inherit;
+    height: 357px;
+    top: 49px;
+    position: relative;
+  }
 
 }

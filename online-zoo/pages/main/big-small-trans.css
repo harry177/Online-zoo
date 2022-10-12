@@ -630,6 +630,10 @@
         border-radius: 0.312vw;
     }
 
+    .test__popup {
+        display: none;
+    }
+
     footer {
         width: 100vw;
         height: 27.687vw;
