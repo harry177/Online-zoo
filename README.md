@@ -1,2 +1,2 @@
 # Online-zoo
-Landing page about hepl for wild animals
+Landing page about help for wild animals
